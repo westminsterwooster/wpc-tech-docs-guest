@@ -1,6 +1,6 @@
-# Westminster Presbyterian Church Technology Documentation
+# Westminster Presbyterian Church Technology Documentation for Guests
 
-The Westminster Presbyterian Church Technology Documentation is a reference for the technology located in Mackey Hall used for livestreaming services.
+The Westminster Presbyterian Church Technology Documentation for Guests is s reference for the technology located in Mackey Hall instnded for guests using the system.
 
 --- 
 
@@ -15,7 +15,7 @@ For any questions or comments, please [email me](mailto:jackveney03@gmail.com).
 
 ## Licenses
 
-### Westminster Presbyterian Church Technology Documentation Project
+### Westminster Presbyterian Church Technology Documentation for Guests Project
 
 
 MIT License
@@ -42,7 +42,7 @@ SOFTWARE.
 
 ---
 
-### Westminster Presbyterian Church Technology Documentation Theme
+### Westminster Presbyterian Church Technology Documentation for Guests Theme
 
 Themes used under license from Martin Donath.
 
