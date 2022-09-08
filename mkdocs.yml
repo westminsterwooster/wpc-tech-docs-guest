@@ -120,21 +120,21 @@ nav:
   - About: about.md
   - Instructions:
     - Video
-      - Turning the Projector On:
-      - Turning the Projector Off:
-      - Input Methods:
+      - Turning the Projector On: index.md
+      - Turning the Projector Off: index.md
+      - Input Methods: index.md
     - Audio
-      - Turning on Sound System:
-      - Connecting iPad to Sound System:
-      - Using Computer Audio:
-      - Connecting and Using Microphones:
-      - Turning off Sound System:
+      - Turning on Sound System: index.md
+      - Connecting iPad to Sound System: index.md
+      - Using Computer Audio: index.md
+      - Connecting and Using Microphones: index.md
+      - Turning off Sound System: index.md
     - Computers
-      - Mackey Hall Computers:
-      - Personal Computer:
+      - Mackey Hall Computers: index.md
+      - Personal Computer: index.md
     - Troubleshooting
-      - iPad Not Connecting to Sound System:
-      - No Sound Output:
-      - No Computer Audio Output:
-      - No Video Output from Projector:
+      - iPad Not Connecting to Sound System: index.md
+      - No Sound Output: index.md
+      - No Computer Audio Output: index.md
+      - No Video Output from Projector: index.md
   - PDF: pdf/document.pdf
