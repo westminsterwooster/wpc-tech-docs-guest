@@ -1,7 +1,27 @@
 # Introduction
 
-Follow the basic steps below as a guide to managing a service. These are all linked on the left bas, as well as some other help pages.
+Use the links below or to the left to navigate the docs.
 
 ---
 
-## Test Words
+## Video
+### Turning the Projector On
+### Turning the Projector Off
+### Input Methods
+
+## Audio
+### Turning on Sound System
+### Connecting iPad to Sound System
+### Using Computer Audio
+### Connecting and Using Microphones
+### Turning off Sound System
+
+## Computers
+### Mackey Hall Computers
+### Personal Computer
+
+## Troubleshooting
+### iPad Not Connecting to Sound System
+### No Sound Output
+### No Computer Audio Output
+### No Video Output from Projector
