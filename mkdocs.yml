@@ -60,7 +60,7 @@ plugins:
       lang: en
   - redirects:
       redirect_maps:
-        docs.md: docs/index.md
+        docs.md: documentation/index.md
   - minify:
       minify_html: true
   - git-revision-date-localized:
@@ -119,5 +119,5 @@ nav:
   - Home: index.md
   - About: about.md
   - Instructions:
-    - Home: docs/index.md
+    - Home: documentation/index.md
   - PDF: pdf/document.pdf
