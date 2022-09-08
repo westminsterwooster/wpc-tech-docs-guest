@@ -118,23 +118,23 @@ plugins:
 nav:
   - Home: index.md
   - About: about.md
-  - Instructions: documentation/
+    - Home: documentation/index.md
     - Video:
-      - Turning the Projector On: index.md
-      - Turning the Projector Off: index.md
-      - Input Methods: index.md
+      - Turning the Projector On: documentation/turning_projector_on.md
+      - Turning the Projector Off: documentation/turning_projector_on.md
+      - Input Methods: documentation/turning_projector_on.md
     - Audio:
-      - Turning on Sound System: index.md
-      - Connecting iPad to Sound System: index.md
-      - Using Computer Audio: index.md
-      - Connecting and Using Microphones: index.md
-      - Turning off Sound System: index.md
+      - Turning on Sound System: documentation/turning_projector_on.md
+      - Connecting iPad to Sound System: documentation/turning_projector_on.md
+      - Using Computer Audio: documentation/turning_projector_on.md
+      - Connecting and Using Microphones: documentation/turning_projector_on.md
+      - Turning off Sound System: documentation/turning_projector_on.md
     - Computers:
-      - Mackey Hall Computers: index.md
-      - Personal Computer: index.md
+      - Mackey Hall Computers: documentation/turning_projector_on.md
+      - Personal Computer: documentation/turning_projector_on.md
     - Troubleshooting:
-      - iPad Not Connecting to Sound System: index.md
-      - No Sound Output: index.md
-      - No Computer Audio Output: index.md
-      - No Video Output from Projector: index.md
+      - iPad Not Connecting to Sound System: documentation/turning_projector_on.md
+      - No Sound Output: documentation/turning_projector_on.md
+      - No Computer Audio Output: documentation/turning_projector_on.md
+      - No Video Output from Projector: documentation/turning_projector_on.md
   - PDF: pdf/document.pdf
