@@ -118,7 +118,8 @@ plugins:
 nav:
   - Home: index.md
   - About: about.md
-  - Documentation: documentation/index.md
+  - Documentation:
+    - Documentation: documentation/index.md
     - Video:
       - Turning the Projector On: documentation/turning_projector_on.md
       - Turning the Projector Off: documentation/turning_projector_on.md
