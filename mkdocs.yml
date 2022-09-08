@@ -1,12 +1,12 @@
-site_name: WPC Technology Documentation
+site_name: WPC Technology Documentation for Guests
 
-repo_name: jackveney/wpc-tech-docs
-repo_url: https://github.com/jackveney/wpc-tech-docs
+repo_name: jackveney/wpc-tech-docs-guests
+repo_url: https://github.com/jackveney/wpc-tech-docs-guests
 edit_uri: ""
 extra_css:
   - 'css/extra.css'
 
-site_description: A reference for the technology located in Mackey Hall used for running and livestreaming services.
+site_description: A reference for the technology located in Mackey Hall instnded for guests using the system.
 site_author: Jack Veney
 theme:
   name: material
@@ -60,7 +60,7 @@ plugins:
       lang: en
   - redirects:
       redirect_maps:
-        tech-docs.md: TechDocs/index.md
+        docs.md: docs/index.md
   - minify:
       minify_html: true
   - git-revision-date-localized:
@@ -85,9 +85,7 @@ plugins:
       #    - 'release-notes/:changelog'
       #
       exclude_pages:
-          - 'TechDocs/parts-listing'
           - 'about/'
-      #    - 'PTZ_Camera/'
       #    - 'appendix/contribute/'
       #convert_iframe:
       #    - src: IFRAME SRC
@@ -120,20 +118,6 @@ plugins:
 nav:
   - Home: index.md
   - About: about.md
-  - General Instructions:
-    - Home: TechDocs/index.md
-    - Listing of Technology Hardware Parts: TechDocs/parts-listing.md
-    - Switching To COW Internet: TechDocs/internet.md
-    - Setting Up and Powering On Computer / Cameras / Sound System / Projector: TechDocs/setting-up-powering-on.md
-    - Connecting iPad to Sound System: TechDocs/ipad-sound-system.md
-    - Fixing Proclaim for OBS Studio: TechDocs/fixing-proclaim.md
-    - Starting Recording and Livestreaming: TechDocs/starting-recording-livestream.md
-    - During the Service: TechDocs/during-service.md
-    - Stopping Recording and Livestreaming: TechDocs/stopping-recording-livestream.md
-    - Shutting Down and Packing Up Computer / Cameras / Sound System / Projector: TechDocs/shutting-down-packing-up.md
-    - Switching To Church Internet: TechDocs/internet-2.md
-    - Stream Deck Icons: TechDocs/stream-deck.md
-    - Changing Audio Output Device: TechDocs/audio-output.md
-  - PTZ Camera:
-    - Camera Presets: PTZ_Camera/camera-presets.md
+  - Instructions:
+    - Home: docs/index.md
   - PDF: pdf/document.pdf
