@@ -1,4 +1,4 @@
-# Lowering the Projector Screen
+# Computer Input Methods
 
 This article details the different projector inputs within Mackey Hall and how to switch between inputs.
 
