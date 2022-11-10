@@ -121,7 +121,7 @@ nav:
   - Documentation:
     - Documentation: documentation/index.md
     - Video:
-      - Turning the Projector On: documentation/turning_projector_on.md
+      - Turning the Projector On: documentation/video/turning_projector_on.md
       - Turning the Projector Off: documentation/turning_projector_on.md
       - Input Methods: documentation/turning_projector_on.md
     - Audio:
