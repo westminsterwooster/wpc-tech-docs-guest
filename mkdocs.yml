@@ -121,9 +121,11 @@ nav:
   - Documentation:
     - Documentation: documentation/index.md
     - Video:
-      - Turning the Projector On: documentation/video/turning_projector_on.md
-      - Turning the Projector Off: documentation/turning_projector_on.md
-      - Input Methods: documentation/turning_projector_on.md
+      - Lowering Projector Screen: documentation/video/lowering_screen.md
+      - Raising Projector Screen: documentation/video/raising_screen.md
+      - Turning Projector On: documentation/video/turning_projector_on.md
+      - Turning Projector Off: documentation/video/turning_projector_off.md
+      - Input Methods: documentation/video/inputs.md
     - Audio:
       - Turning on Sound System: documentation/turning_projector_on.md
       - Connecting iPad to Sound System: documentation/turning_projector_on.md
