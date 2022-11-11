@@ -127,11 +127,11 @@ nav:
       - Turning Projector Off: documentation/video/turning_projector_off.md
       - Input Methods: documentation/video/inputs.md
     - Audio:
-      - Turning on Sound System: documentation/audio/turning_sound_system_on.md
+      - Turning Sound System On: documentation/audio/turning_sound_system_on.md
       - Connecting iPad to Sound System: documentation/turning_projector_on.md
       - Using Computer Audio: documentation/turning_projector_on.md
       - Connecting and Using Microphones: documentation/turning_projector_on.md
-      - Turning off Sound System: documentation/audio/turning_sound_system_off.md
+      - Turning Sound System Off: documentation/audio/turning_sound_system_off.md
     - Computers:
       - Mackey Hall Computers: documentation/turning_projector_on.md
       - Personal Computer: documentation/turning_projector_on.md
