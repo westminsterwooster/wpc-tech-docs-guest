@@ -2,9 +2,7 @@
 
 This article details turning on the projector.
 
-The remote must be used to turn the projector on/off. The on/off buttons on the wall outside of the chair/server rack/choir closet above the inputs no longer work to turn the projector on/off.
-
-Follow the steps below to retrieve the remote and power on the projector.
+The remote must be used to turn the projector on/off. The on/off buttons on the wall outside of the chair/server rack/choir closet above the inputsote and power on the projector.
 
 ---
 
