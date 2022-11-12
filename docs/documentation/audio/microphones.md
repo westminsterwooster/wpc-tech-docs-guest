@@ -53,7 +53,7 @@ This article details the micrphones and ports in Mackey Hall, connecting them, a
 ## Changing Audio Levels
   Move the slider to the level that you want it at. It's best to have some kind of noise in the microphone as you adjust them and start lower on the slider dial when adjusting.
 
-## 5. Muting / Unmuting
+## Muting / Unmuting
   To mute/unmute, click the mute button at the top of the sliders. Orange is muted, white is unmuted.
   <br>![Sliders Combined](../../assets/images/audio/computer_audio/ipad_combined_computer_mute.png)
   <br>![Sliders Separated](../../assets/images/audio/computer_audio/ipad_separate_computer_mute.png)
