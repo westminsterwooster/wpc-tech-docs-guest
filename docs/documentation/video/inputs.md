@@ -2,8 +2,6 @@
 
 This article details the different projector inputs within Mackey Hall and how to switch between inputs.
 
-Follow the steps below to lower the projector screen.
-
 ---
 
 ## 1. Connecting Devices
@@ -19,7 +17,7 @@ Follow the steps below to lower the projector screen.
  <br>![HDMI Input](../../assets/images/video/inputs/ports_HDMI.png)
 
 ### VGA Inputs
-  There are two VGA inputs in Mackey Hall. Laptop 1 (VGA) and the audio input port for it are located with the VGA and RCA inputs underneath the input secector panel. Laptop 2 (VGA) and the audio input port for it are on the wall outside the Scout Closet underneath the projector screen. Both of these two ports are identicical in their look. You will need two separate cables (VGA and 3.5mm audio) to have both audio and video with this method. You can choose to only have audio or only video by only plugging in the respective cable for each. 
+  There are two VGA inputs in Mackey Hall. Laptop 1 (VGA) and the audio input port for it are located with the VGA and RCA inputs underneath the input secector panel. Laptop 2 (VGA) and the audio input port for it are on the wall outside the Scout Closet underneath the projector screen. You will need two separate cables (VGA and 3.5mm audio) to have both audio and video with this method. You can choose to only have audio or only video by only plugging in the respective cable for each. 
  <br>![VGA Input](../../assets/images/video/inputs/ports_VGA.png)
  
 
