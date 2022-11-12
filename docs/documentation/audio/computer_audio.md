@@ -14,15 +14,15 @@ Follow the steps below to to use computer audio with the speakers in Mackey Hall
   In Master Fader, you will see one of two different slider options. Sometimes the computer sliders (7 & 8) are combined together into one slider, and sometimes they aren't combined. 
 
 ### A. Combined Sliders
- ![Sliders Combined](../../assets/images/audio/computer_audio/ipad_combined_computer.png)
+ <br>![Sliders Combined](../../assets/images/audio/computer_audio/ipad_combined_computer.png)
 
 ### B. Separate Sliders
- ![Sliders Separated](../../assets/images/audio/computer_audio/ipad_separate_computer.png)
+ <br>![Sliders Separated](../../assets/images/audio/computer_audio/ipad_separate_computer.png)
 
 ## 4. Changing Audio Levels
   Whether it's using the combined single slider or the two separate sliders, move the slider to the level that you want it at. It's best to have audio playing and start lower on the slider dial when adjusting.
 
 ## 5. Muting / Unmuting
   To mute/unmute, click the mute button at the top of the sliders. Orange is muted, white is unmuted.
-  ![Sliders Combined](../../assets/images/audio/computer_audio/ipad_combined_computer_mute.png)
-  ![Sliders Separated](../../assets/images/audio/computer_audio/ipad_separate_computer_mute.png)
+  <br>![Sliders Combined](../../assets/images/audio/computer_audio/ipad_combined_computer_mute.png)
+  <br>![Sliders Separated](../../assets/images/audio/computer_audio/ipad_separate_computer_mute.png)
