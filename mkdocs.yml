@@ -99,7 +99,7 @@ plugins:
       #
       toc_title: Table of Contents
       #heading_shift: false
-      toc_level: 3
+      toc_level: 2
       #ordered_chapter_level: 2
       #excludes_children:
       #    - 'release-notes/:upgrading'
@@ -113,7 +113,7 @@ plugins:
       #      img: POSTER IMAGE URL
       #      text: ALTERNATE TEXT
       #    - src: ...
-      #two_columns_level: 3
+      two_columns_level: 3
       #
       #render_js: true
       #headless_chrome_path: headless-chromium
