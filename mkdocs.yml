@@ -33,7 +33,7 @@ theme:
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: indigo
+      primary: green
       accent: indigo
       toggle:
         icon: material/weather-night
