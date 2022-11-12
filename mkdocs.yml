@@ -33,15 +33,15 @@ theme:
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: green
-      accent: green
+      primary: indigo
+      accent: indigo
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: green
-      accent: green
+      primary: indigo
+      accent: indigo
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
@@ -55,6 +55,10 @@ theme:
 
 markdown_extensions:
   - tables
+  - pymdownx.keys
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
 
 copyright: Copyright &copy; 2022 Jack Veney - Westminster Presbyterian Church Wooster, Ohio
 plugins:
