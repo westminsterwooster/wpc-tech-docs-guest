@@ -6,7 +6,7 @@ Follow the steps below to connect the iPad to the sound system to be able to con
 
 ## 1. Verify Sound System Power
 Verify that the power for the sound system and amplifier is on by completing the below steps. If either of these are turned off, follow the steps on the ["Turning Sound System On"](turning_sound_system_on.md) page.
-### B. Rack Power
+### A. Rack Power
  Verify that the switch on the rack marked "Power" is switched on. It will light up red when it is on.
  <br>![Rack Switch](../../assets/images/audio/sound_system_on-off/sound_system_rack_switch.png)
 
