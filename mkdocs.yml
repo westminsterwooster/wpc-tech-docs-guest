@@ -77,8 +77,8 @@ plugins:
       #
       cover: true
       back_cover: true
-      #cover_title: TITLE TEXT
-      cover_subtitle: 2022 Updates
+      cover_title: Guest Documentation
+      cover_subtitle: Westminster Presbyterian Church - Mackey Hall Technology
       cover_logo: assets/images/banner.png
       #custom_template_path: TEMPLATES PATH
       #
