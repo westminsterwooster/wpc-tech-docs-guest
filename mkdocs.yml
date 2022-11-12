@@ -99,7 +99,7 @@ plugins:
       #
       toc_title: Table of Contents
       #heading_shift: false
-      toc_level: 2
+      toc_level: 3
       #ordered_chapter_level: 2
       #excludes_children:
       #    - 'release-notes/:upgrading'
