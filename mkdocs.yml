@@ -59,9 +59,12 @@ markdown_extensions:
   - def_list
   - pymdownx.tasklist:
       custom_checkbox: true
+  - attr_list
+  - md_in_html
 
 copyright: Copyright &copy; 2022 Jack Veney - Westminster Presbyterian Church Wooster, Ohio
 plugins:
+  - glightbox
   - search:
       lang: en
   - redirects:
