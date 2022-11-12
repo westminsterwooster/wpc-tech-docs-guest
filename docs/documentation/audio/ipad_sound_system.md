@@ -1,23 +1,28 @@
 # Connecting iPad to Sound System
 
-Follow the steps below to connect the iPad to the sound system to be able to control it.
+Follow the steps below to connect the iPad to the sound system to be able to control audio levels.
 
 ---
 
-## 1. Check Rack Power
- - ***If you came from the Setting Up and Powering On Computer / Cameras / Sound System / Projector page, skip this step.***
-- The rack is usually left on, but it sometimes gets turned off. There is a red switch marked “Power.” It will light up red when it is on.
- <br>![Amplifier](../assets/images/ipad-sound-system/sound-system-rack-power%400.1x.png)
+## 1. Verify Sound System Power
+ Verify that the power for the sound system and amplifier is on by completing the following steps:
+ ### A. Rack Power
+   Verify that the switch on the rack marked "Power" is switched on. It will light up red when it is on.
+   <br>![Rack Switch](../../assets/images/audio/sound_system_on-off/sound_system_rack_switch.png)
+ 
+ ### B. Amplifier Power
+ Verify that the switch on the amplifier is switched on. The amplifier is the third most bottom thing on the sound system rack. The power button on the bottom right of the amplifier will turn blue when on.
+ <br>![Amplifier](../../assets/images/audio/sound_system_on-off/sound_system_rack_amplifier.png)
+
+ If either of these are turned off, follow the steps on the ["Turning Sound System On"](turning_sound_system_on.md) page.
 
 ## 2. Check Amplifier Power
- - ***If you came from the Setting Up and Powering On Computer / Cameras / Sound System / Projector page, skip this step.***
  - Turn on the amplifier on the sound system rack to get sound output from the mircophones.
  - The amplifier is the third most bottom thing on the sound system rack.
  <br>![Amplifier](../assets/images/setting-up-powering-on/sound-system-rack-amplifier%400_3.png)
  - Press the power button in the bottom right of it. It will stay partway in and turn blue when on.
  
 ## 3. Retrieve and Turn on iPad
- - ***If you came from the Setting Up and Powering On Computer / Cameras / Sound System / Projector page, skip this step.***
  - Get the iPad from the storage location, power it on, and place it on the desk for later.
  <br>![iPad Storage](../assets/images/setting-up-powering-on/mevos-ipad%400.1x.png)
 
