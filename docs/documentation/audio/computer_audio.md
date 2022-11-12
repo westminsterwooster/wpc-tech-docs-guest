@@ -1,31 +1,28 @@
-# Connecting iPad to Sound System
+# Using Computer Audio
 
-Follow the steps below to connect the iPad to the sound system to be able to control audio levels.
+Follow the steps below to to use computer audio with the speakers in Mackey Hall.
 
 ---
 
-## 1. Verify Sound System Power
-  Verify that the power for the sound system and amplifier is on by completing the below steps. If either of these are turned off, follow the steps on the ["Turning Sound System On"](turning_sound_system_on.md) page.
-### A. Rack Power
-   Verify that the switch on the rack marked "Power" is switched on. It will light up red when it is on.
-   <br>![Rack Switch](../../assets/images/audio/sound_system_on-off/sound_system_rack_switch.png)
-### B. Amplifier Power
-   Verify that the switch on the amplifier is switched on. The amplifier is the third most bottom thing on the sound system rack. The power button on the bottom right of the amplifier will turn blue when on.
-   <br>![Amplifier](../../assets/images/audio/sound_system_on-off/sound_system_rack_amplifier.png)
+## 1. Connect Computer to Projector / Sound System
+  Connect your device to the projector / sound system. You do not have to use the projector. You can connect using a 3.5mm audio cable and the jacks on your computer and one of the two jacks in Mackey Hall, or by using HDMI. If you need help with the inputs, see the article entitled ["Input Methods"](../video/inputs.md.md).
  
-## 2. Retrieve and Turn on iPad
-  Get the iPad from its storage location on the shelf to the left of the sound system rack and power it on.
- <br>![iPad Storage](../../assets/images/audio/ipad_sound_system/iPad_storage_location.jpg)
+## 2. Computer Volume Levels
+  Turn up the volume on the computer to somewhere near 10 (or about 10% of total volume). Any higher of audio become too loud and becomes garbled when put into the system. From here, you will change computer volume levels using the iPad and Master Fader. See the page entitled ["Connecting iPad to Sound System"](ipad_sound_system.md) for help with getting the iPad connected to the sound system.
 
-## 3. Open Master Fader
-  Unlock the iPad and open the Master Fader App. You will likely have to swipe to the second screen to find the app.
- <br>![Master Fader App](../../assets/images/audio/ipad_sound_system/master-fader.png)
+## 3. Master Fader
+  In Master Fader, you will see one of two different slider options. Sometimes the computer sliders (7 & 8) are combined together into one slider, and sometimes they aren't combined. 
 
-## 4. Open Settings
-  In Master Fader, click the gear wheel at the top right corner.
- <br>![Gear Icon](../../assets/images/audio/ipad_sound_system/gear-icon.png)
+### A. Combined Sliders
+ <br>![Sliders Combined](../../assets/images/audio/computer_audio/ipad_combined_computer.png)
 
-## 5. Select DL1608
-  At the bottom of the screen, click the wireless option DL1608.
- <br>![DL1608](../../assets/images/audio/ipad_sound_system/dl1608.png)
-  The gear icon at the top right of the screen should now be colored green with "Connected" appearing beneath it. Press the gear icon once more to return to the homepage of Master Fader.
+### B. Separate Sliders
+ <br>![Sliders Separated](../../assets/images/audio/computer_audio/ipad_separate_computer.png)
+
+## 4. Changing Audio Levels
+  Whether it's using the combined single slider or the two separate sliders, move the slider to the level that you want it at. It's best to have audio playing and start lower on the slider dial when adjusting.
+
+## 5. Muting / Unmuting
+  To mute/unmute, click the mute button at the top of the sliders. Orange is muted, white is unmuted.
+  <br>![Sliders Combined](../../assets/images/audio/computer_audio/ipad_combined_computer_mute.png)
+  <br>![Sliders Separated](../../assets/images/audio/computer_audio/ipad_separate_computer_mute.png)
