@@ -2,7 +2,7 @@ site_name: WPC Technology Documentation for Guests
 
 repo_name: jackveney/wpc-tech-docs-guests
 repo_url: https://github.com/jackveney/wpc-tech-docs-guests
-edit_uri: ""
+edit_uri: "https://github.com/jackveney/wpc-tech-docs-guests"
 extra_css:
   - 'css/extra.css'
 
