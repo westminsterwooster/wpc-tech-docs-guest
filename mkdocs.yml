@@ -4,9 +4,9 @@ repo_name: jackveney/wpc-tech-docs-guest
 repo_url: https://github.com/jackveney/wpc-tech-docs-guest
 edit_uri: ""
 extra_css:
-  - 'css/extra.css'
+  - "css/extra.css"
 
-site_description: A reference for the technology located in Mackey Hall instnded for guests using the system.
+site_description: A reference for the technology in Mackey Hall intended for guests.
 site_author: Jack Veney
 theme:
   name: material
@@ -62,7 +62,7 @@ markdown_extensions:
   - attr_list
   - md_in_html
 
-copyright: Copyright &copy; 2022 Jack Veney - Westminster Presbyterian Church Wooster, Ohio
+copyright: Copyright &copy; 2023 Jack Veney - Westminster Presbyterian Church Wooster, Ohio
 plugins:
   - search:
       lang: en
@@ -93,7 +93,7 @@ plugins:
       #    - 'release-notes/:changelog'
       #
       exclude_pages:
-          - 'about/'
+        - "about/"
       #    - 'appendix/contribute/'
       #convert_iframe:
       #    - src: IFRAME SRC
@@ -111,41 +111,50 @@ plugins:
       #debug_html: true
       #show_anchors: true
       #verbose: true
-#  - mkpdfs:
-#      company: Westminster Presbyterian Church
-#      author: Jack Veney
-#      toc_title: Table of contents
-#      output_path: pdf/documentation.pdf
-#  - pdf-export:
-#      verbose: true
-#      media_type: print
-#      enabled_if_env: ENABLE_PDF_EXPORT
-#      combined: true
+  #  - mkpdfs:
+  #      company: Westminster Presbyterian Church
+  #      author: Jack Veney
+  #      toc_title: Table of contents
+  #      output_path: pdf/documentation.pdf
+  #  - pdf-export:
+  #      verbose: true
+  #      media_type: print
+  #      enabled_if_env: ENABLE_PDF_EXPORT
+  #      combined: true
+  - mike:
+      # These fields are all optional; the defaults are as below...
+      alias_type: symlink
+      redirect_template: null
+      deploy_prefix: ""
+      canonical_version: null
+      version_selector: true
+      css_dir: css
+      javascript_dir: js
 
 # Page tree
 nav:
   - Home: index.md
   - About: about.md
   - Documentation:
-    - Documentation: documentation/index.md
-    - Video:
-      - Lowering Projector Screen: documentation/video/lowering_screen.md
-      - Raising Projector Screen: documentation/video/raising_screen.md
-      - Turning Projector On: documentation/video/turning_projector_on.md
-      - Turning Projector Off: documentation/video/turning_projector_off.md
-      - Input Methods: documentation/video/inputs.md
-    - Audio:
-      - Turning Sound System On: documentation/audio/turning_sound_system_on.md
-      - Connecting iPad to Sound System: documentation/audio/ipad_sound_system.md
-      - Using Computer Audio: documentation/audio/computer_audio.md
-      - Connecting and Using Microphones: documentation/audio/microphones.md
-      - Turning Sound System Off: documentation/audio/turning_sound_system_off.md
-#    - Computers:
-#      - Mackey Hall Computers: documentation/turning_projector_on.md
-#      - Personal Computer: documentation/turning_projector_on.md
-#    - Troubleshooting:
-#      - iPad Not Connecting to Sound System: documentation/turning_projector_on.md
-#      - No Sound Output: documentation/turning_projector_on.md
-#      - No Computer Audio Output: documentation/turning_projector_on.md
-#      - No Video Output from Projector: documentation/turning_projector_on.md
+      - Documentation: documentation/index.md
+      - Video:
+          - Lowering Projector Screen: documentation/video/lowering_screen.md
+          - Raising Projector Screen: documentation/video/raising_screen.md
+          - Turning Projector On: documentation/video/turning_projector_on.md
+          - Turning Projector Off: documentation/video/turning_projector_off.md
+          - Input Methods: documentation/video/inputs.md
+      - Audio:
+          - Turning Sound System On: documentation/audio/turning_sound_system_on.md
+          - Connecting iPad to Sound System: documentation/audio/ipad_sound_system.md
+          - Using Computer Audio: documentation/audio/computer_audio.md
+          - Connecting and Using Microphones: documentation/audio/microphones.md
+          - Turning Sound System Off: documentation/audio/turning_sound_system_off.md
+  #    - Computers:
+  #      - Mackey Hall Computers: documentation/turning_projector_on.md
+  #      - Personal Computer: documentation/turning_projector_on.md
+  #    - Troubleshooting:
+  #      - iPad Not Connecting to Sound System: documentation/turning_projector_on.md
+  #      - No Sound Output: documentation/turning_projector_on.md
+  #      - No Computer Audio Output: documentation/turning_projector_on.md
+  #      - No Video Output from Projector: documentation/turning_projector_on.md
   - PDF: pdf/document.pdf
