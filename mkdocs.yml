@@ -6,6 +6,10 @@ edit_uri: ""
 extra_css:
   - "css/extra.css"
 
+extra:
+  version:
+    provider: mike
+
 site_description: A reference for the technology in Mackey Hall intended for guests.
 site_author: Jack Veney
 theme:
