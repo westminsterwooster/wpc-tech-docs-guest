@@ -22,7 +22,7 @@ This article details the micrphones and ports in Mackey Hall, connecting them, a
 
 ### Handheld Wireless Microphone
   The handheld microphone is a wireless microphone. It takes batteries, and they sometimes need replaced. Please let the Pastor / Church Office know if the betteries need replaced.
-  <br>![Handheld Microphone](../../assets/images/audio/microphones/handheld_microphone.png)
+  <br>A new microphone was purchased in April 2023. A picture and instructions for use to come soon.
 
 ### Plug-in Mircophones
   There are three other plug-in microphones. Two of them are specialty designed for instruments, and the third is a regular microphone. The two music microphones are stored inside protective bags. There are various microphone cables to plug these into either stored near the sound system rack, plugged into the sound system, or near the piano/organ in Mackey Hall.  
