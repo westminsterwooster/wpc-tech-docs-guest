@@ -1,21 +1,26 @@
-# Turning the Projector Off
+# Turning Projector Off
 
-This article details turning off the projector.
+## Introduction 
+This guide details how to turn off the projector in Mackey Hall. Below, see detailed instructions. 
 
-The remote must be used to turn the projector on/off. The on/off buttons on the wall outside of the chair/server rack/choir closet above the inputs no longer work to turn the projector on/off.
-
-Follow the steps below to retrieve the remote and power off the projector.
+If you need information on turning on the projector, please refer to [this article](./turning_projector_on.md "Turning Projector On").
 
 ---
 
-## 1. Retreive Remote
- Retrieve the remote from the second to bottom drawer on the sound system rack
+## Import Note Regarding Wall Controls
+ Please note that since the replacement of the projector a few years ago, the controls on the wall outside of the choir closet only operate the video switcher. The projector's power cannot be controlled using these wall controls. Instead, you will need to use the projector remote to turn the projector on or off.
+
+## Projector Remote
+ The projector remote is typically located in the second drawer from the bottom on the sound system rack. If it is not there, please check the computer desk outside the choir closet. There is a possibility that the remote is sitting on the desk underneath the protective cloth.
  <br>![NEC Projector Remote](../../assets/images/video/turning_projector_on-off/sound-system-rack%400.1x.png)
 
 
-## 2. Power Off Projector
- Get somewhere near the projector and press the remote's "Standby" button twice to power off the projector. The blue light on the underside of the projector should turn red.
- <br>![NEC Projector Remote](../../assets/images/video/turning_projector_on-off/nec-projector-remote-off%400.25x.png)
+## Power Off Projector
+ To power off the projector, follow these steps:
+ 1. Position yourself somewhere near the projector.
+ 2. Point the remote somewhere near the projector.
+ 3. Press the remote's "Standby" button twice to power off the projector (see image below). This action will initiate the power-off sequence.
+ 4. Confirm that the blue light on the underside of the projector turns red, indicating that it is powered off.
+ 5. Once you have finished, please remember to return the remote to its original location.
 
-## 4. Return Remote
- Return the remote to the second to bottom drawer on the sound system rack. 
+ <br>![NEC Projector Remote](../../assets/images/video/turning_projector_on-off/nec-projector-remote-off%400.25x.png) 
