@@ -1,7 +1,7 @@
 # Lowering Projector Screen
 
 ## Introduction 
-This guide details how to lower the projector screen in Mackey Hall. Below, see detailed instructions to help you lower the projector screen. 
+This guide details how to lower the projector screen in Mackey Hall. Below, see detailed instructions. 
 
  If you need information on retracting the projector screen, please refer to [this article](./retracting_screen.md "Retracting Projector Screen").
 

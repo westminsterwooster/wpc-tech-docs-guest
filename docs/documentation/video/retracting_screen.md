@@ -1,7 +1,7 @@
 # Retracting Projector Screen
 
 ## Introduction 
-This guide details how to retract the projector screen in Mackey Hall. Below, see detailed instructions to help you retract the projector screen. 
+This guide details how to retract the projector screen in Mackey Hall. Below, see detailed instructions. 
 
  If you need information on lowering the projector screen, please refer to [this article](./lowering_screen.md "Lowering Projector Screen").
 
