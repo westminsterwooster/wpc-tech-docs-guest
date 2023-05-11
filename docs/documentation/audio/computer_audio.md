@@ -2,6 +2,7 @@
 
 ## Introduction 
 This guide provides detailed instructions on how to utilize computer audio within Mackey Hall, as well as how to switch between different audio inputs and control the volume levels. Below, see detailed instructions.
+
 ---
 
 ## Connect Your Computer to the Sound System
