@@ -17,10 +17,10 @@ If you need information on turning on the projector, please refer to [this artic
 
 ## Power Off Projector
  To power off the projector, follow these steps:
- 1. Position yourself somewhere near the projector.
- 2. Point the remote somewhere near the projector.
- 3. Press the remote's "Standby" button twice to power off the projector (see image below). This action will initiate the power-off sequence.
- 4. Confirm that the blue light on the underside of the projector turns red, indicating that it is powered off.
- 5. Once you have finished, please remember to return the remote to its original location.
+1. Position yourself somewhere near the projector.
+2. Point the remote somewhere near the projector.
+3. Press the remote's "Standby" button twice to power off the projector (see image below). This action will initiate the power-off sequence.
+4. Confirm that the blue light on the underside of the projector turns red, indicating that it is powered off.
+5. Once you have finished, please remember to return the remote to its original location.
 
  <br>![NEC Projector Remote](../../assets/images/video/turning_projector_on-off/nec-projector-remote-off%400.25x.png) 
