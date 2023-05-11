@@ -17,6 +17,7 @@ If you need information on turning off the projector, please refer to [this arti
 
 ## Power On Projector
 To power on the projector, follow these steps:
+
 1. Position yourself somewhere near the projector.
 1. Point the remote somewhere near the projector.
 1. Press the remote's "On" button to power on the projector (see image below) This action will initiate the power-on sequence.
