@@ -44,7 +44,7 @@ This guide provides detailed instructions on how to utilize computer audio withi
  If the computer sliders (7 & 8) are separate, follow these steps:
  
      1. Identify the two separate sliders in the Master Fader interface.
-     2. Adjust the individual sliders to set the desired volume level.
+     1. Adjust the individual sliders to set the desired volume level.
  ![Separate Sliders](../../assets/images/audio/computer_audio/ipad_separate_computer.png)
 
 ## Muting / Unmuting
