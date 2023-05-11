@@ -16,7 +16,7 @@ If you need information on turning off the projector, please refer to [this arti
 
 
 ## Power On Projector
- To power on the projector, follow these steps:
+To power on the projector, follow these steps:
 1. Position yourself somewhere near the projector.
 1. Point the remote somewhere near the projector.
 1. Press the remote's "On" button to power on the projector (see image below) This action will initiate the power-on sequence.
@@ -24,4 +24,4 @@ If you need information on turning off the projector, please refer to [this arti
 1. Please allow approximately 30 seconds for the projector to fully power on. During this time, be patient and avoid any further interaction with the projector.
 1. Once you have finished, please remember to return the remote to its original location.
 
- <br>![NEC Projector Remote](../../assets/images/video/turning_projector_on-off/nec-projector-remote%400.25x.png) 
+<br>![NEC Projector Remote](../../assets/images/video/turning_projector_on-off/nec-projector-remote%400.25x.png) 
