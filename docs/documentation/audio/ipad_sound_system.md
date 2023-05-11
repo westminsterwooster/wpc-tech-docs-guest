@@ -1,31 +1,58 @@
 # Connecting iPad to Sound System
 
-Follow the steps below to connect the iPad to the sound system to be able to control audio levels.
+## Introduction 
+This guide provides detailed instructions on how to connect the iPad to the sound system and control the audio levels. Below, see detailed instructions.
 
 ---
 
-## 1. Verify Sound System Power
-  Verify that the power for the sound system and amplifier is on by completing the below steps. If either of these are turned off, follow the steps on the ["Turning Sound System On"](turning_sound_system_on.md) page.
-### A. Rack Power
-   Verify that the switch on the rack marked "Power" is switched on. It will light up red when it is on.
-   <br>![Rack Switch](../../assets/images/audio/sound_system_on-off/sound_system_rack_switch.png)
-### B. Amplifier Power
-   Verify that the switch on the amplifier is switched on. The amplifier is the third most bottom thing on the sound system rack. The power button on the bottom right of the amplifier will turn blue when on.
-   <br>![Amplifier](../../assets/images/audio/sound_system_on-off/sound_system_rack_amplifier.png)
+## Verify Sound System Power
+ To ensure that the sound system and amplifier are powered on, follow these steps. If either of them is turned off, refer to the steps on the [Turning Sound System On](turning_sound_system_on.md "Turning Sound System On") page.
+
+ ### A. Rack Power
  
-## 2. Retrieve and Turn on iPad
-  Get the iPad from its storage location on the shelf to the left of the sound system rack and power it on.
- <br>![iPad Storage](../../assets/images/audio/ipad_sound_system/iPad_storage_location.jpg)
+ 1. Check the rack switch marked "Power" and verify it is turned on.
+ 2. The switch will illuminate in red when it is in the on position.
 
-## 3. Open Master Fader
-  Unlock the iPad and open the Master Fader App. You will likely have to swipe to the second screen to find the app.
- <br>![Master Fader App](../../assets/images/audio/ipad_sound_system/master-fader.png)
+ ![Rack Switch](../../assets/images/audio/sound_system_on-off/sound_system_rack_switch.png)
 
-## 4. Open Settings
-  In Master Fader, click the gear wheel at the top right corner.
- <br>![Gear Icon](../../assets/images/audio/ipad_sound_system/gear-icon.png)
+### B. Amplifier Power
+ 
+ 1. Locate the amplifier on the sound system rack. It is positioned as the third item from the bottom.
+ 2. Check the power button located at the bottom right of the amplifier and ensure that it is switched on.
+ 3. The power button will display a blue light when the amplifier is powered on.
 
-## 5. Select DL1608
-  At the bottom of the screen, click the wireless option DL1608.
- <br>![DL1608](../../assets/images/audio/ipad_sound_system/dl1608.png)
-  The gear icon at the top right of the screen should now be colored green with "Connected" appearing beneath it. Press the gear icon once more to return to the homepage of Master Fader.
+ ![Amplifier](../../assets/images/audio/sound_system_on-off/sound_system_rack_amplifier.png)
+
+ 
+## Retrieve and Power on the iPad
+ To begin, follow these steps to retrieve the iPad and power it on:
+
+ 1. Locate the iPad on the shelf positioned to the left of the sound system rack.
+   ![iPad Storage](../../assets/images/audio/ipad_sound_system/iPad_storage_location.jpg)
+ 2. Take the iPad from its storage location.
+ 3. Power on the iPad by pressing the power button located on the top of the device.
+
+Once the iPad is powered on, you can proceed with the next steps
+
+## Open Master Fader
+ To open the Master Fader app on the iPad, follow these steps:
+
+1. Wake up the iPad by pressing the Home or Power button.
+2. Swipe across the screen to unlock the iPad and access the home screen.
+3. Swipe to the second screen if necessary to find the Master Fader app icon.
+   ![Master Fader App](../../assets/images/audio/ipad_sound_system/master-fader.png)
+4. Tap on the Master Fader app icon to open it.
+
+Once the Master Fader app is open, you can proceed with the next steps.
+
+## Connect to Sound System
+To open the settings menu in Master Fader, follow these steps:
+
+ 1. Launch the Master Fader app on your iPad.
+ 2. Locate the gear icon at the top right corner of the screen.
+![Gear Icon](../../assets/images/audio/ipad_sound_system/gear-icon.png)
+ 3. Tap on the gear icon to access the settings menu.
+ 4. In the settings menu, scroll down to the bottom of the screen and find the option labeled "DL1608" under the wireless settings.
+ ![DL1608](../../assets/images/audio/ipad_sound_system/dl1608.png)
+ 5. Tap on the "DL1608" option to establish a wireless connection.
+ 6. After successfully connecting, the gear icon at the top right corner of the screen will turn green, and the word "Connected" will appear beneath it. You can now press the gear icon once more to return to the homepage of Master Fader.
