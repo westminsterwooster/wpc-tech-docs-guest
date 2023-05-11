@@ -7,7 +7,7 @@ If you need information on turning off the projector, please refer to [this arti
 
 ---
 
-## Import Note Regarding Wall Controls
+## Note Regarding Wall Controls
  Please note that since the replacement of the projector a few years ago, the controls on the wall outside of the choir closet only operate the video switcher. The projector's power cannot be controlled using these wall controls. Instead, you will need to use the projector remote to turn the projector on or off.
 
 ## Projector Remote
