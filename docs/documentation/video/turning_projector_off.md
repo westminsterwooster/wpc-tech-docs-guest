@@ -16,7 +16,7 @@ If you need information on turning on the projector, please refer to [this artic
 
 
 ## Power Off Projector
- To power off the projector, follow these steps:
+To power off the projector, follow these steps:
 1. Position yourself somewhere near the projector.
 2. Point the remote somewhere near the projector.
 3. Press the remote's "Standby" button twice to power off the projector (see image below). This action will initiate the power-off sequence.
