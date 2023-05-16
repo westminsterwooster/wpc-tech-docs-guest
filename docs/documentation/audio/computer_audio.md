@@ -34,14 +34,14 @@ This guide provides detailed instructions on how to utilize computer audio withi
  When using the Master Fader, you will encounter two different slider options depending on the configuration. Please follow the instructions below:
 
  1. Combined Sliders
- If the computer sliders (7 & 8) are combined into a single slider, follow these steps:
+ If the computer sliders (5 & 6) are combined into a single slider, follow these steps:
 
      1. Locate the combined slider in the Master Fader interface.
      1. Use the slider to adjust the volume level according to your preference.
  ![Combined Sliders](../../assets/images/audio/computer_audio/ipad_combined_computer.png)
 
  2. Separate Sliders
- If the computer sliders (7 & 8) are separate, follow these steps:
+ If the computer sliders (5 & 6) are separate, follow these steps:
  
      1. Identify the two separate sliders in the Master Fader interface.
      1. Adjust the individual sliders to set the desired volume level.
