@@ -57,4 +57,3 @@ The cable snake labels each port and its corresponding channel in Master Fader. 
 ## Muting / Unmuting
   To mute or unmute, click the mute button located at the top of the sliders. The button will appear orange when muted and white when unmuted.
   <br>![Sliders Combined](../../assets/images/audio/computer_audio/ipad_combined_computer_mute.png)
-  <br>![Sliders Separated](../../assets/images/audio/computer_audio/ipad_separate_computer_mute.png)
