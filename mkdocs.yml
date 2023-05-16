@@ -138,7 +138,9 @@ plugins:
 # Page tree
 nav:
   - Home: index.md
-  - About: about.md
+  - About: 
+      - About:   about.md
+      - Changelog: changelog.md
   - Documentation:
       - Documentation: documentation/index.md
       - Video:
@@ -152,7 +154,6 @@ nav:
           - Connecting iPad to Sound System: documentation/audio/ipad_sound_system.md
           - Using Computer Audio: documentation/audio/computer_audio.md
           - Connecting and Using Microphones: documentation/audio/microphones.md
-  - Changelog: changelog.md
   #    - Computers:
   #      - Mackey Hall Computers: documentation/turning_projector_on.md
   #      - Personal Computer: documentation/turning_projector_on.md
