@@ -23,7 +23,6 @@ This article provides detailed information on the microphones and ports availabl
 
 ### Handheld Wireless Microphone
   The handheld microphone is a wireless handheld microphone that also requires batteries. Please inform the Pastor or Church Office if the batteries need replacement.
-  <br>For instructions on powering on/off the handheld microphone, please consult [this guide](handheld_microphone.md "Handheld Microphone Power").
 
 ### Plug-in Microphones
   There are three other plug-in microphones available. All three are specifically designed for instrumentsand are stored in protective bags. There is an audio snake located under the heater along the wall between the organ and piano in Mackey Hall.
