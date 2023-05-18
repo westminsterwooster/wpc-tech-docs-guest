@@ -104,7 +104,7 @@ plugins:
       #      img: POSTER IMAGE URL
       #      text: ALTERNATE TEXT
       #    - src: ...
-      two_columns_level: 3
+      #two_columns_level: 3
       #
       #render_js: true
       #headless_chrome_path: headless-chromium
@@ -115,16 +115,6 @@ plugins:
       #debug_html: true
       #show_anchors: true
       #verbose: true
-  #  - mkpdfs:
-  #      company: Westminster Presbyterian Church
-  #      author: Jack Veney
-  #      toc_title: Table of contents
-  #      output_path: pdf/documentation.pdf
-  #  - pdf-export:
-  #      verbose: true
-  #      media_type: print
-  #      enabled_if_env: ENABLE_PDF_EXPORT
-  #      combined: true
   - mike:
       # These fields are all optional; the defaults are as below...
       alias_type: symlink
