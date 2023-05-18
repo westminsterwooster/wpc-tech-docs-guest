@@ -96,8 +96,8 @@ plugins:
       #    - 'release-notes/:upgrading'
       #    - 'release-notes/:changelog'
       #
-      exclude_pages:
-        - "about/"
+      #exclude_pages:
+      #  - "about/"
       #    - 'appendix/contribute/'
       #convert_iframe:
       #    - src: IFRAME SRC
