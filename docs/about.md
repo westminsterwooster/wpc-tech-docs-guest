@@ -1,4 +1,4 @@
-# Westminster Presbyterian Church Guest Technology Documentation
+# Guest Documentation | Westminster Presbyterian Church - Mackey Hall Technology
 
 The Westminster Presbyterian Church Guest Technology Documentation is a reference guide for guests using the technology in Mackey Hall.
 
