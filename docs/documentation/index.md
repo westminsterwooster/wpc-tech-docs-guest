@@ -1,4 +1,4 @@
-# Introduction
+# WPC Technology Documentation for Guests
 
 ## Introduction
 Welcome to the tech documentation guide for the audio and video equipment in Mackey Hall! This guide is designed to provide you with step-by-step instructions and helpful tips for effectively operating and utilizing the projector, sound system, and various audio input devices. Whether you're a beginner or an experienced user, you'll find the information you need to master the following topics:
