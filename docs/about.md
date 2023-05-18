@@ -1,12 +1,12 @@
-# Westminster Presbyterian Church Technology Documentation for Guests
+# Westminster Presbyterian Church Guest Technology Documentation
 
-The Westminster Presbyterian Church Technology Documentation for Guests is s reference for the technology located in Mackey Hall instnded for guests using the system.
+The Westminster Presbyterian Church Guest Technology Documentation is a reference guide for guests using the technology in Mackey Hall.
 
 --- 
 
 ## Notes
 
-This document is a work in progress. Please ignore if there is any gramartical mistakes and let me know so that we can correct them accordingly.
+This document is a work in progress. Please ignore any grammatical mistakes and let us know so that we can correct them accordingly.
 
 
 For any questions or comments, please [email me](mailto:jackveney03@gmail.com).
@@ -15,7 +15,7 @@ For any questions or comments, please [email me](mailto:jackveney03@gmail.com).
 
 ## Licenses
 
-### Westminster Presbyterian Church Technology Documentation for Guests Project
+### Westminster Presbyterian Church Guest Technology Documentation
 
 
 MIT License
@@ -42,7 +42,7 @@ SOFTWARE.
 
 ---
 
-### Westminster Presbyterian Church Technology Documentation for Guests Theme
+### Material for MKDocs Theme
 
 Themes used under license from Martin Donath.
 
