@@ -1,4 +1,4 @@
-site_name: WPC Technology Documentation for Guests
+site_name: Guest Documentation
 
 repo_name: jackveney/wpc-tech-docs-guest
 repo_url: https://github.com/jackveney/wpc-tech-docs-guest
@@ -10,7 +10,8 @@ extra:
   version:
     provider: mike
 
-site_description: A reference for the technology in Mackey Hall intended for guests.
+site_description: The Westminster Presbyterian Church Guest Technology Documentation is a reference guide for guests using the technology in Mackey Hall.
+
 site_author: Jack Veney
 theme:
   name: material
