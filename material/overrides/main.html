@@ -3,22 +3,25 @@
 -#}
 {% extends "base.html" %}
 {% block extrahead %}
-  <link rel="stylesheet" href="{{ 'overrides/assets/stylesheets/main.82a244a8.min.css' | url }}">
+  <link rel="stylesheet" href="{{ 'assets/stylesheets/custom.f7ec4df2.min.css' | url }}">
 {% endblock %}
-<!--{% block announce %}
-
-{% endblock %}-->
-{% block content %}
-  {% include "overrides/partials/content.html" %}
+{% block announce %}
+  For updates follow <strong>@squidfunk</strong> on
+  <a rel="me" href="https://fosstodon.org/@squidfunk">
+    <span class="twemoji mastodon">
+      {% include ".icons/fontawesome/brands/mastodon.svg" %}
+    </span>
+    <strong>Fosstodon</strong>
+  </a>
+  and
+  <a href="https://twitter.com/squidfunk">
+    <span class="twemoji twitter">
+      {% include ".icons/fontawesome/brands/twitter.svg" %}
+    </span>
+    <strong>Twitter</strong>
+  </a>
 {% endblock %}
 {% block scripts %}
   {{ super() }}
-  <script src="{{ 'overrides/assets/javascripts/bundle.1ff6d521.min.js' | url }}"></script>
-{% endblock %}
-
-{% block outdated %}
-  You're not viewing the latest version.
-  <a href="{{ '../' ~ base_url }}"> 
-    <strong>Click here to go to latest.</strong>
-  </a>
+  <script src="{{ 'assets/javascripts/custom.13133f3f.min.js' | url }}"></script>
 {% endblock %}
