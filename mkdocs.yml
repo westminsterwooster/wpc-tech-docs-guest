@@ -9,6 +9,17 @@ extra_css:
 extra:
   version:
     provider: mike
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/jackveney/wpc-tech-docs
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/wpcwooster
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/wpc_wooster
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/westminsterwooster
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:jackveney03@gmail.com
 
 site_description: The Westminster Presbyterian Church Guest Technology Documentation is a reference guide for guests using the technology in Mackey Hall.
 
