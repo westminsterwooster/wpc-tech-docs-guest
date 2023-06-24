@@ -28,7 +28,10 @@ theme:
   name: material
   custom_dir: material/
   features:
+    - content.action.view
     - content.code.annotate
+    - content.code.copy
+    - navigation.footer
     # - content.tabs.link
     - content.tooltips
     # - header.autohide
