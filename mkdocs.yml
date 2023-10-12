@@ -1,7 +1,7 @@
 site_name: Guest Documentation | Westminster Presbyterian Church - Mackey Hall Technology
 
-repo_name: jackveney/wpc-tech-docs-guest
-repo_url: https://github.com/jackveney/wpc-tech-docs-guest
+repo_name: westminsterwooster/wpc-tech-docs-guest
+repo_url: https://github.com/westminsterwooster/wpc-tech-docs-guest
 edit_uri: ""
 extra_css:
   - "css/extra.css"
@@ -11,7 +11,7 @@ extra:
     provider: mike
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/jackveney/wpc-tech-docs-guest
+      link: https://github.com/westminsterwooster/wpc-tech-docs-guest
     - icon: fontawesome/brands/facebook
       link: https://www.facebook.com/wpcwooster
     - icon: fontawesome/brands/instagram
