@@ -3,7 +3,7 @@ site_name: Guest Documentation
 repo_name: westminsterwooster/wpc-tech-docs-guest
 repo_url: https://github.com/westminsterwooster/wpc-tech-docs-guest
 edit_uri: ""
-site_url: 'https://docs.wpctech.info/'
+site_url: https://docs.wpctech.info/
 extra_css:
   - "css/extra.css"
 
