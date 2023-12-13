@@ -1,0 +1,24 @@
+# Install MkDocs
+mkdocs==1.5.3
+
+# Install MkDocs Material
+mkdocs-material==9.5.2
+mkdocs-material-extensions==1.3.1
+
+# Install Extra Plugins
+mkdocs-git-revision-date-localized-plugin==1.2.1
+mkdocs-minify-plugin==0.7.1
+mkdocs-redirects==1.2.1
+mkdocs-with-pdf==0.9.3
+
+# Install Mike for Versioning
+mike==2.0.0
+
+#Install Plugin sNeeded for Extra Material Plugins
+CairoSVG==2.7.1
+Pillow==9.5.0
+cairocffi==1.6.1
+defusedxml==0.7.1
+
+# Install QR Code for PDF Back Cover
+qrcode==7.4.2
