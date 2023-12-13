@@ -3,6 +3,7 @@ site_name: Guest Documentation
 repo_name: westminsterwooster/wpc-tech-docs-guest
 repo_url: https://github.com/westminsterwooster/wpc-tech-docs-guest
 edit_uri: ""
+site_url: 'https://docs.wpctech.info/'
 extra_css:
   - "css/extra.css"
 
@@ -81,12 +82,15 @@ markdown_extensions:
   - attr_list
   - md_in_html
 
-copyright: Copyright &copy; 2023 Jack Veney - Westminster Presbyterian Church Wooster, Ohio
+copyright: Copyright &copy; 2023 Jack Veney for Westminster Presbyterian Church Wooster, Ohio
 plugins:
   - search:
       lang: en
   - social:
+      enabled: !ENV [CI, false]
       cards: !ENV [CARDS, false]
+  - tags:
+      enabled: true
   - redirects:
       redirect_maps:
         docs.md: documentation/index.md
@@ -147,6 +151,8 @@ nav:
   - About: 
       - About:   about.md
       - Changelog: changelog.md
+      - License: license
+      - Security: SECURITY.md
   - Documentation:
       - Documentation: documentation/index.md
       - Video:
