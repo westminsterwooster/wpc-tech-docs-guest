@@ -17,7 +17,7 @@ For any questions or comments, please [email me](mailto:jackveney03@gmail.com).
 
 ### Westminster Presbyterian Church Guest Technology Documentation
 
-[View License](LICENSE)
+[View License](https://github.com/westminsterwooster/wpc-tech-docs-guest/blob/main/license)
 
 ---
 
