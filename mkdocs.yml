@@ -151,8 +151,6 @@ nav:
   - About: 
       - About:   about.md
       - Changelog: changelog.md
-      - License: license
-      - Security: SECURITY.md
   - Documentation:
       - Documentation: documentation/index.md
       - Video:
