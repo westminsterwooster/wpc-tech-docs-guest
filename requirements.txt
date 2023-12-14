@@ -10,6 +10,7 @@ mkdocs-git-revision-date-localized-plugin==1.2.1
 mkdocs-minify-plugin==0.7.1
 mkdocs-redirects==1.2.1
 mkdocs-with-pdf==0.9.3
+mkdocs-open-in-new-tab==1.0.3
 
 # Install Mike for Versioning
 mike==2.0.0
