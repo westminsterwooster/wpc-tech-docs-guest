@@ -98,6 +98,7 @@ plugins:
       minify_html: true
   - git-revision-date-localized:
       fallback_to_build_date: true
+  - open-in-new-tab
   - with-pdf:
       #author: WHO
       #copyright: ANY TEXT
