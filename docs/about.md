@@ -9,7 +9,7 @@ The Westminster Presbyterian Church Guest Technology Documentation is a referenc
 This document is a work in progress. Please ignore any grammatical mistakes and let us know so that we can correct them accordingly.
 
 
-For any questions or comments, please [email me](mailto:jackveney03@gmail.com).
+For any questions or comments, please [email me](mailto:jack@wpcwooster.org).
 
 ---
 
