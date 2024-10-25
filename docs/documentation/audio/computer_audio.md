@@ -9,17 +9,19 @@ This guide provides detailed instructions on how to utilize computer audio withi
  To utilize computer audio with the speakers in Mackey Hall, follow these steps to connect your device to the sound system:
 
  1. Determine the appropriate method of connection:
-   - Option 1: Using a 3.5mm audio cable
+   - Option 1: Using HDMI
+     - *If you are using HDMI for Video as well, this is the only option available*
+     - Identify the HDMI port on your computer.
+     - Connect one end of the HDMI cable to the HDMI port of your computer.
+     - Locate one of the HDMI input ports in Mackey Hall.
+     - Connect the other end of the HDMI cable to the HDMI input port in Mackey Hall.
+   - Option 2: Using a 3.5mm audio cable
+    - *If you are using VGA for Video as well, this is the only option available*
      - Locate the audio output jack on your computer.
      - Connect one end of the 3.5mm audio cable to the audio output jack of your computer.
      - Identify one of the two audio input jacks in Mackey Hall.
      - Connect the other end of the 3.5mm audio cable to the chosen audio input jack in Mackey Hall.
-   - Option 2: Using HDMI
-     - Identify the HDMI port on your computer.
-     - Connect one end of the HDMI cable to the HDMI port of your computer.
-     - Locate the HDMI input port in Mackey Hall.
-     - Connect the other end of the HDMI cable to the HDMI input port in Mackey Hall.
-  2. It's important to note that you do not have to use the projector for audio playback. The sound system can be directly connected to your computer using the methods described above.
+  2. It's important to note that you do not have to use the projector for audio playback. The sound system can be directly connected to your computer using the methods described above. If you only want audio, just don't turn on the projector or TV.
 
   3. If you require further assistance with the input connections, please refer to the detailed article titled [Input Methods](../video/inputs.md "Input Methods").
  
@@ -34,17 +36,17 @@ This guide provides detailed instructions on how to utilize computer audio withi
  When using the Master Fader, you will encounter two different slider options depending on the configuration. Please follow the instructions below:
 
  1. Combined Sliders
- If the computer sliders (5 & 6) are combined into a single slider, follow these steps:
+ If the computer sliders are combined into a single slider, follow these steps:
 
      1. Locate the combined slider in the Master Fader interface.
      1. Use the slider to adjust the volume level according to your preference.
  ![Combined Sliders](../../assets/images/audio/computer_audio/ipad_combined_computer.png)
 
  2. Separate Sliders
- If the computer sliders (5 & 6) are separate, follow these steps:
+ If the computer sliders  are separate, follow these steps:
  
      1. Identify the two separate sliders in the Master Fader interface.
-     1. Adjust the individual sliders to set the desired volume level.
+     2. Adjust the individual sliders to set the desired volume level.
  ![Separate Sliders](../../assets/images/audio/computer_audio/ipad_separate_computer.png)
 
 ## Muting / Unmuting
