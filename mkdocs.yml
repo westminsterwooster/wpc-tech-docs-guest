@@ -157,8 +157,8 @@ nav:
       - Video:
           - Lowering Projector Screen: documentation/video/lowering_screen.md
           - Retracting Projector Screen: documentation/video/retracting_screen.md
-          - Turning Projector On: documentation/video/turning_projector_on.md
-          - Turning Projector Off: documentation/video/turning_projector_off.md
+          - Turning Projector / Rear TV On: documentation/video/turning_projector_on.md
+          - Turning Projector / Rear TV Off: documentation/video/turning_projector_off.md
           - Input Methods: documentation/video/inputs.md
       - Audio:
           - Turning Sound System On: documentation/audio/turning_sound_system_on.md
@@ -168,7 +168,7 @@ nav:
   #    - Computers:
   #      - Mackey Hall Computers: documentation/turning_projector_on.md
   #      - Personal Computer: documentation/turning_projector_on.md
-  #    - Troubleshooting:
+      - Troubleshooting:
   #      - iPad Not Connecting to Sound System: documentation/turning_projector_on.md
   #      - No Sound Output: documentation/turning_projector_on.md
   #      - No Computer Audio Output: documentation/turning_projector_on.md
