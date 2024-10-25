@@ -18,11 +18,11 @@ This article provides detailed information on the microphones and ports availabl
   <br>![Pulpit Microphone](../../assets/images/audio/microphones/pulpit_microphone.png)
 
 ### Wireless Clip-on Lapel Microphone
-  The lapel microphone is a wireless clip-on microphone that requires batteries. Please notify the Pastor or Church Office if the batteries need replacement.
+  The lapel microphone is a wireless clip-on microphone. Please notify the Pastor or Church Office if the batteries need replacement.
   <br>![Lapel Microphone](../../assets/images/audio/microphones/lapel_microphone.png)
 
-### Handheld Wireless Microphone
-  The handheld microphone is a wireless handheld microphone that also requires batteries. Please inform the Pastor or Church Office if the batteries need replacement.
+### Handheld Wireless Microphones (2)
+  There are two handheld microphone that are wireless. Please inform the Pastor or Church Office if the batteries need replacement.
 
 ### Plug-in Microphones
   There are three other plug-in microphones available. All three are specifically designed for instrumentsand are stored in protective bags. There is an audio snake located under the heater along the wall between the organ and piano in Mackey Hall.
