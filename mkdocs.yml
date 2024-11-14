@@ -168,7 +168,8 @@ nav:
   #    - Computers:
   #      - Mackey Hall Computers: documentation/turning_projector_on.md
   #      - Personal Computer: documentation/turning_projector_on.md
-      - Troubleshooting: comingsoon.md
+      - Troubleshooting:
+         - Coming Soon: comingsoon.md
   #      - iPad Not Connecting to Sound System: documentation/turning_projector_on.md
   #      - No Sound Output: documentation/turning_projector_on.md
   #      - No Computer Audio Output: documentation/turning_projector_on.md
