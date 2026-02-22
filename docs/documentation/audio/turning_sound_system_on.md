@@ -1,18 +1,23 @@
 # Turning the Sound System On
 
-## Introduction 
-This guide provides step-by-step instructions to verify and ensure that the sound system is turned on. While the system is typically left in the "on" state, it is important to verify its current status to ensure proper functionality. By following the instructions below, you can confirm the power state of the sound system and make any necessary adjustments. When you are finished with the sound system, please leave it in the "on" state.
+This guide explains how to verify and turn on the Mackey Hall sound system.
 
----
+If the system is already on, no changes are needed.
 
 ## Check Rack Power
-The rack that houses the sound system is typically left on, but it's worth checking the power status. Locate the red switch on the rack labeled "Power." When the switch is on, it will light up red. If the switch is off, simply switch it on to power up the rack.
+1. Go to the sound system rack.
+2. Find the red `Power` switch on the rack.
+3. If the switch is not lit red, turn it on.
 
-![Rack Switch](../../assets/images/audio/sound_system_on-off/sound_system_rack_switch.png)
+![Rack Power Switch](../../assets/images/audio/sound_system_on-off/power-new.png)
 
 ## Check Amplifier Power
-To activate the sound output in Mackey Hall from the microphones or computer, you may need to turn on the amplifier located on the sound system rack. The amplifier is positioned as the third item from the bottom. Locate the power button on the bottom right of the amplifier and press it. The power button will partially depress and turn blue when the amplifier is successfully turned on.
+1. Locate the amplifier in the rack (third unit from the bottom).
+2. Press the amplifier power button at the bottom-right.
+3. Confirm the button lights blue, which means the amplifier is on.
 
-![Amplifier](../../assets/images/audio/sound_system_on-off/sound_system_rack_amplifier.png)
+![Amplifier Power Button](../../assets/images/audio/sound_system_on-off/power-new_amplifier.png)
 
-Please ensure that both the rack power and the amplifier power are switched on to enable the functioning of the sound system. If they are already on, you can proceed with using the sound system without any further action.
+## Sound System Ready
+When the rack power is on and the amplifier power button is blue, the sound system is ready for microphones, computer audio, and Bluetooth audio.
+

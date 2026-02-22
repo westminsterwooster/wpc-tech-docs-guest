@@ -20,7 +20,9 @@ extra:
     - icon: fontawesome/brands/youtube
       link: https://www.youtube.com/westminsterwooster
     - icon: fontawesome/solid/paper-plane
-      link: mailto:jackveney03@gmail.com
+      link: mailto:jack@wpcwooster.org
+    - icon: fontawesome/solid/globe
+      link: https://wpcwooster.org
 
 site_description: The Westminster Presbyterian Church Guest Technology Documentation is a reference guide for guests using the technology in Mackey Hall.
 
@@ -162,8 +164,9 @@ nav:
           - Input Methods: documentation/video/inputs.md
       - Audio:
           - Turning Sound System On: documentation/audio/turning_sound_system_on.md
-          - Connecting iPad to Sound System: documentation/audio/ipad_sound_system.md
+          - Using Wall Audio Controls: documentation/audio/wall_audio_controls.md
           - Using Computer Audio: documentation/audio/computer_audio.md
+          - Bluetooth Pairing: documentation/audio/bluetooth_pairing.md
           - Connecting and Using Microphones: documentation/audio/microphones.md
   #    - Computers:
   #      - Mackey Hall Computers: documentation/turning_projector_on.md
@@ -175,3 +178,4 @@ nav:
   #      - No Computer Audio Output: documentation/turning_projector_on.md
   #      - No Video Output from Projector: documentation/turning_projector_on.md
   - PDF: pdf/document.pdf
+

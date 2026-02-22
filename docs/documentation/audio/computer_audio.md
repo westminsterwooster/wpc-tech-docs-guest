@@ -1,71 +1,36 @@
 # Using Computer Audio
 
-## Introduction 
-This guide provides detailed instructions on how to utilize computer audio within Mackey Hall, as well as how to switch between different audio inputs and control the volume levels. Below, see detailed instructions.
+This guide explains how to play audio from a computer in Mackey Hall using the wall touchscreen audio controls.
 
----
+If the sound system is not on, see [Turning the Sound System On](turning_sound_system_on.md).
 
-## Connect Your Computer to the Sound System
- To utilize computer audio with the speakers in Mackey Hall, follow these steps to connect your device to the sound system:
+## Connect Your Computer
+1. Connect your computer using one of these methods:
+   - `HDMI` (carries video and audio together)
+   - `3.5mm audio` cable (audio only)
+2. If you are also using video, choose the cable type that matches your selected video input.
+3. For port locations, see [Input Methods](../video/inputs.md).
 
- 1. Determine the appropriate method of connection:
-   - Option 1: Using HDMI
-     - *If you are using HDMI for Video as well, this is the only option available*
-     - Identify the HDMI port on your computer.
-     - Connect one end of the HDMI cable to the HDMI port of your computer.
-     - Locate one of the HDMI input ports in Mackey Hall.
-     - Connect the other end of the HDMI cable to the HDMI input port in Mackey Hall.
-   - Option 2: Using a 3.5mm audio cable
-    - *If you are using VGA for Video as well, this is the only option available*
-     - Locate the audio output jack on your computer.
-     - Connect one end of the 3.5mm audio cable to the audio output jack of your computer.
-     - Identify one of the two audio input jacks in Mackey Hall.
-     - Connect the other end of the 3.5mm audio cable to the chosen audio input jack in Mackey Hall.
-  2. It's important to note that you do not have to use the projector for audio playback. The sound system can be directly connected to your computer using the methods described above. If you only want audio, just don't turn on the projector or TV.
+## Open Audio Levels
+1. On the wall touchscreen Homepage, press `Audio`.
+   ![Control Screen Homepage](../../assets/images/video/control-screen_new/homepage.png)
+2. On the Audio page, press `Audio Levels`.
+   ![Audio Page](../../assets/images/video/control-screen_new/audio.png)
+3. On the **Select a Preset** screen, press `Computer + Bluetooth Inputs`.
+   ![Audio Preset Selection](../../assets/images/audio/control/home.png)
 
-  3. If you require further assistance with the input connections, please refer to the detailed article titled [Input Methods](../video/inputs.md "Input Methods").
- 
-## Adjusting Computer Volume Level
- To ensure optimal audio output, follow these steps to adjust the volume level on your computer:
+## Use the Computer Input Channel
+1. In `Computer + Bluetooth Inputs`, find the `Computer` channel card.
+2. If the channel shows `Muted` in red, press it once to unmute.
+3. Start playback on your computer.
+4. Adjust the `Computer` level using `+1%`, `-1%`, or the slider.
+    ![Computer and Bluetooth Controls](../../assets/images/audio/control/computer-bluetooth.png)
 
- 1. Set the volume on your computer to approximately 10, which corresponds to around 10% of the total volume. This initial setting allows you to check the audio levels and make further adjustments if necessary.
+## Helpful On-Screen References
+- Press `About Inputs` for source and connection reference details.
+- Press `Help` for quick control tips (`+1%`, `-1%`, hold to ramp, Mute/Unmute, and Default level behavior).
 
- 2. To fine-tune the computer volume levels, you will use the iPad and the Master Fader application. For instructions on connecting the iPad to the sound system, please refer to the page titled [Connecting iPad to Sound System](ipad_sound_system.md "Connecting iPad to Sound System").
+![About Inputs Screen](../../assets/images/audio/control/guide.png)
 
-## Adjusting Volume Levels with Master Fader
- When using the Master Fader, you will encounter two different slider options depending on the configuration. Please follow the instructions below:
+![Help Screen](../../assets/images/audio/control/help.png)
 
- 1. Combined Sliders
- If the computer sliders are combined into a single slider, follow these steps:
-
-     1. Locate the combined slider in the Master Fader interface.
-     1. Use the slider to adjust the volume level according to your preference.
- ![Combined Sliders](../../assets/images/audio/computer_audio/ipad_combined_computer.png)
-
- 2. Separate Sliders
- If the computer sliders  are separate, follow these steps:
- 
-     1. Identify the two separate sliders in the Master Fader interface.
-     2. Adjust the individual sliders to set the desired volume level.
- ![Separate Sliders](../../assets/images/audio/computer_audio/ipad_separate_computer.png)
-
-## Muting / Unmuting
- To mute or unmute the audio, follow these steps:
-
- 1. Locate the mute button at the top of the sliders in the Master Fader interface.
- 2. Click the mute button to toggle between muting and unmuting the audio.
-
- When the audio is muted, the mute button will appear orange. When the audio is unmuted, the mute button will appear white.
-
- Note that the number of mute buttons you need to toggle depends on whether the computer audio sliders are combined or separate.
-
- - If the sliders are combined, there will be one mute button to control both sliders.
- - If the sliders are separate, there will be two mute buttons, one for each slider.
-
- Refer to the following images for visual reference:
-
- Combined Sliders Mute:
- ![Combined Sliders Mute](../../assets/images/audio/computer_audio/ipad_combined_computer_mute.png)
-
- Separated Sliders Mute:
- ![Separated Sliders Mute](../../assets/images/audio/computer_audio/ipad_separate_computer_mute.png)
