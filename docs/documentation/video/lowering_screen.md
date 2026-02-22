@@ -1,16 +1,19 @@
 # Lowering Projector Screen
 
-## Introduction 
-This guide details how to lower the projector screen in Mackey Hall. Below, see detailed instructions. 
+This guide explains how to lower the projector screen in Mackey Hall.
 
- If you need information on retracting the projector screen, please refer to [this article](./retracting_screen.md "Retracting Projector Screen").
+If you need the reverse process, see [Retracting Projector Screen](./retracting_screen.md).
 
----
+## Locate the Screen Control
+The projector screen control switch is on the south wall, to the right of the windows.
 
-## Projector Screen Control
- The projector screen control is positioned to the right of the windows on the south wall.
- <br>![Windows on South Wall](../../assets/images/video/raising-lowering_projector_screen/projector_screen_location.png)
+![Windows on South Wall](../../assets/images/video/raising-lowering_projector_screen/projector_screen_location.png)
 
-## Lowering Screen
- To lower the screen, toggle the switch by pressing the lower half of it all the way in. The screen will automatically stop when it reaches its lowest position. Refer to the photo below for an example of the switch position.
- <br>![Projector Switch](../../assets/images/video/raising-lowering_projector_screen/projector_screen_controls_down.png)
+## Lower the Screen
+1. Press the lower half of the screen control switch fully in.
+2. The switch is a maintained toggle, so it will stay in the selected position.
+3. Wait while the screen lowers.
+4. The screen will stop automatically at its lowest position.
+5. Toggle the switch back to the neutral (center) position after the screen is fully lowered.
+
+![Projector Switch in Down Position](../../assets/images/video/raising-lowering_projector_screen/projector_screen_controls_down.png)

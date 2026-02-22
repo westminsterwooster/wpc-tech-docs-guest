@@ -1,37 +1,28 @@
 # Turning Projector / Rear TV Off
 
-## Introduction 
-This guide details how to turn off the projector or rear TV in Mackey Hall. Below, see detailed instructions. 
+This guide explains how to power off the projector and rear TV in Mackey Hall using the wall touchscreen.
 
-If you need information on turning on the projector or rear TV, please refer to [this article](./turning_projector_on.md "Turning Projector / Rear TV On").
-
----
-
-## Note Regarding Wall Controls (Updated October 2024)
- There is a touch screen on the wall that replaces the old wall controls above the church PC. This is the best way to turn the projector or TV on. Below you will see two screens are called out. A second one located under the projector is planned. As of October 2024, the one above the church PC is the only screen installed.
-
+If you need the reverse process, see [Turning Projector / Rear TV On](./turning_projector_on.md).
 
 ## Power Off Projector
-To power off the projector, follow these steps:
-
-1. Go to one of the two touch screens located in Mackey.
-   - Either above the church PC or under the projector.
-2. Locate the "Projector" button in the top left.
-3. The button will be red when the projector is off, and will turn green when the projector is fully powered on.
-4. Press the "Projector" button to power off the projector (see image below). This action will initiate the power-off sequence.
-5. You will hear a beep from the projector and the blue light on the underside of the projector will turn red, indicating that it is powered off.
-
-
-<br>![Control Screen Layout](../../assets/images/video/control_screen.png) 
+1. Go to the wall touchscreen in Mackey Hall.
+2. If you are not on the Homepage or the `Power` page, press the `Home` icon in the top-left corner.
+3. If you are on the Homepage, press `Power` to open the power controls. If you are already on the `Power` page, continue to the next step.
+   ![Control Screen Homepage](../../assets/images/video/control-screen_new/homepage.png)
+   **Press the `Power` button on the homepage.**
+4. On the Power page, press `Projector Off` to power off the projector.
+   ![Power Menu Screen](../../assets/images/video/control-screen_new/power_1.png)
+   **Press `Projector Off` to power off the projector.**
+5. Allow about 30 seconds for the projector to fully shut down.
 
 ## Power Off Rear TV
-To power off the rear TV, follow these steps:
+1. Go to the wall touchscreen in Mackey Hall.
+2. If you are not on the Homepage or the `Power` page, press the `Home` icon in the top-left corner.
+3. If you are on the Homepage, press `Power` to open the power controls. If you are already on the `Power` page, continue to the next step.
+   ![Control Screen Homepage](../../assets/images/video/control-screen_new/homepage.png)
+   **Press the `Power` button on the homepage.**
+4. On the Power page, press and hold `Rear TV` for a few seconds to power off the rear TV.
+   ![Power Menu Screen](../../assets/images/video/control-screen_new/power_1.png)
+   **Press and hold `Rear TV` for a few seconds to power off the rear TV.**
+5. Wait a few seconds for the rear TV to fully power off.
 
-1. Go to one of the two touch screens located in Mackey.
-   - Either above the church PC or under the projector.
-2. Locate the "TV" button near the top left.
-3. The button will be red when the TV is off, and will turn green when the TV is powered on.
-4. Press the "TV" button to power off the rear TV (see image below). This action will initiate the power-off sequence.
-
-
-<br>![Control Screen Layout](../../assets/images/video/control_screen.png) 

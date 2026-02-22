@@ -1,28 +1,32 @@
-# WPC Technology Documentation for Guests
+# WPC Guest Technology Documentation
 
-## Introduction
-Welcome to the tech documentation guide for the audio and video equipment in Mackey Hall! This guide is designed to provide you with step-by-step instructions and helpful tips for effectively operating and utilizing the projector, sound system, and various audio input devices. Whether you're a beginner or an experienced user, you'll find the information you need to master the following topics:
+Welcome to the guest documentation for Mackey Hall AV systems. This guide is designed to provide clear, step-by-step instructions for operating the projector, rear TV, sound system, and audio input devices.
 
----
+## Start Here
+Before your event:
+- Power on the required systems before connecting devices.
+- Confirm the correct input source is selected.
+- Test audio and video output before your event begins.
+- Follow shutdown steps after use to protect equipment life.
 
-## Video
-1. Lowering Projector Screen: Discover the proper procedure for lowering the projector screen, ensuring an optimal viewing experience for your audience.
+## Video Guides
+Use these guides to manage screen control, display power, and source selection.
 
-2. Retracting Projector Screen: Learn how to retract the projector screen safely, preventing any potential damage and maximizing the longevity of the equipment.
+1. [Lowering Projector Screen](video/lowering_screen.md): Proper procedure for lowering the projector screen for viewing.
+2. [Retracting Projector Screen](video/retracting_screen.md): Safe retraction steps to prevent wear or damage.
+3. [Turning Projector / Rear TV On](video/turning_projector_on.md): Startup process for the display systems.
+4. [Turning Projector / Rear TV Off](video/turning_projector_off.md): Correct shutdown process for long-term reliability.
+5. [Input Methods](video/inputs.md): How to choose and use available video input options.
 
-3. Turning Projector On: Follow the provided instructions to power on the projector correctly, enabling you to project your content seamlessly onto the screen.
+## Audio Guides
+Use these guides to power, connect, and optimize room audio.
 
-4. Turning Projector Off: Learn the necessary steps for properly shutting down the projector, ensuring it remains in good condition and ready for future use.
+1. [Turning Sound System On](audio/turning_sound_system_on.md): Startup process for the sound system.
+2. [Using Wall Audio Controls](audio/wall_audio_controls.md): Use the wall touchscreen to select audio presets, unmute channels, and adjust levels.
+3. [Using Computer Audio](audio/computer_audio.md): How to route and use audio from a computer.
+4. [Bluetooth Pairing](audio/bluetooth_pairing.md): Pair a phone, tablet, or computer to the room Bluetooth receiver.
+5. [Connecting and Using Microphones](audio/microphones.md): Setup and usage basics for microphones.
 
-5. Input Methods: Explore the various input methods available for connecting your devices to the projector and sound system, including HDMI, VGA, and RCA options. Gain a clear understanding of how to select the appropriate input for your connection.
+## Need More Help?
+If something is not working as expected, check the Troubleshooting section in the Documentation navigation.
 
-## Audio
-1. Turning Sound System On: Uncover the process of powering on the sound system, creating a rich audio environment that complements your visual presentations.
-
-2. Connecting iPad to Sound System: Discover the method for connecting the iPad to the sound system, allowing you to adjust the audio levels.
-
-3. Using Computer Audio: Learn how to harness the power of your computer's audio capabilities to enhance your presentations and ensure clear, crisp sound reproduction.
-
-4. Connecting and Using Microphones: Dive into the world of microphones and explore the steps involved in connecting and effectively using microphones with the sound system. Whether it's for presentations, performances, or meetings, this section will provide you with valuable insights.
-
-With these comprehensive instructions, you'll be equipped to confidently operate the audio and video equipment, enhancing your overall experience and delivering impactful presentations or immersive entertainment. Let's delve into each topic and unlock the full potential of your tech setup!
