@@ -106,11 +106,18 @@ async function runPdf(browser) {
       const h = img.clientHeight;
       // Skip images with no layout dimensions or that failed to load
       if (!w || !h || !img.complete || img.naturalWidth === 0) continue;
+      // Draw at 2× scale for sharper print output
+      const scale = 2;
       const canvas = document.createElement('canvas');
-      canvas.width = w;
-      canvas.height = h;
-      canvas.getContext('2d').drawImage(img, 0, 0, w, h);
-      const dataUrl = canvas.toDataURL('image/jpeg', 0.75);
+      canvas.width = w * scale;
+      canvas.height = h * scale;
+      const ctx = canvas.getContext('2d');
+      // Fill white before drawing so transparent areas become white,
+      // not black (JPEG has no alpha channel)
+      ctx.fillStyle = '#ffffff';
+      ctx.fillRect(0, 0, canvas.width, canvas.height);
+      ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
+      const dataUrl = canvas.toDataURL('image/jpeg', 0.85);
       img.src = dataUrl;
       await new Promise(r => { img.onload = r; img.onerror = r; });
     }
