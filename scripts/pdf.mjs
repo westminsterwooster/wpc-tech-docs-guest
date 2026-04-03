@@ -104,7 +104,8 @@ async function runPdf(browser) {
     for (const img of imgs) {
       const w = img.clientWidth;
       const h = img.clientHeight;
-      if (!w || !h) continue;
+      // Skip images with no layout dimensions or that failed to load
+      if (!w || !h || !img.complete || img.naturalWidth === 0) continue;
       const canvas = document.createElement('canvas');
       canvas.width = w;
       canvas.height = h;
