@@ -2,9 +2,13 @@
  * Generates dist/pdf/document.pdf from the /print page.
  * On Vercel this runs as part of the build step.
  * Locally: npm run pdf
+ *
+ * Browser strategy:
+ *   Linux (Vercel)  → puppeteer-core + @sparticuz/chromium
+ *                     (@sparticuz bundles the shared libs missing on AL2)
+ *   Windows (local) → full puppeteer devDependency with its bundled Chrome
  */
 
-import puppeteer from 'puppeteer';
 import { spawn } from 'child_process';
 import { mkdir } from 'fs/promises';
 import { resolve, dirname } from 'path';
@@ -14,8 +18,10 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const root = resolve(__dirname, '..');
 const outputDir = resolve(root, 'dist', 'pdf');
 const outputFile = resolve(outputDir, 'document.pdf');
-// ── Start astro preview ────────────────────────────────────────────────────
+
 const isWin = process.platform === 'win32';
+
+// ── Start astro preview ────────────────────────────────────────────────────
 const bin = isWin
   ? resolve(root, 'node_modules', '.bin', 'astro.cmd')
   : resolve(root, 'node_modules', '.bin', 'astro');
@@ -49,15 +55,7 @@ const previewUrl = await new Promise((resolve, reject) => {
 });
 
 // ── Generate PDF ───────────────────────────────────────────────────────────
-try {
-  await mkdir(outputDir, { recursive: true });
-
-  console.log('Launching browser...');
-  const browser = await puppeteer.launch({
-    headless: true,
-    args: ['--no-sandbox', '--disable-setuid-sandbox'],
-  });
-
+async function runPdf(browser) {
   const page = await browser.newPage();
 
   // Letter content area at 96 CSS px/in: 8.5in - 2×0.75in margins = 7in = 672px.
@@ -83,14 +81,13 @@ try {
       img.loading = 'eager';
       img.decoding = 'sync';
     });
-    // Wait for all images to complete loading
     await Promise.all(
       imgs.map(img =>
         img.complete
           ? Promise.resolve()
           : new Promise(resolve => {
               img.onload = resolve;
-              img.onerror = resolve; // don't hang on broken images
+              img.onerror = resolve;
             })
       )
     );
@@ -137,8 +134,35 @@ try {
       </div>`,
   });
 
-  await browser.close();
   console.log(`\n✓ PDF saved to: ${outputFile}`);
+}
+
+try {
+  await mkdir(outputDir, { recursive: true });
+
+  console.log('Launching browser...');
+
+  let browser;
+  if (isWin) {
+    // Local Windows: full puppeteer devDependency includes its own Chrome
+    const { default: puppeteer } = await import('puppeteer');
+    browser = await puppeteer.launch({
+      headless: true,
+      args: ['--no-sandbox', '--disable-setuid-sandbox'],
+    });
+  } else {
+    // Linux (Vercel): @sparticuz/chromium bundles the shared libs AL2 is missing
+    const { default: chromium } = await import('@sparticuz/chromium');
+    const { default: puppeteer } = await import('puppeteer-core');
+    browser = await puppeteer.launch({
+      headless: true,
+      executablePath: await chromium.executablePath(),
+      args: [...chromium.args, '--no-sandbox', '--disable-setuid-sandbox'],
+    });
+  }
+
+  await runPdf(browser);
+  await browser.close();
 } finally {
   preview.kill();
 }
