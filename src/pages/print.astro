@@ -1,0 +1,439 @@
+---
+import { getCollection, render } from 'astro:content';
+
+// Use a plain <img> tag with the logo so we control loading="eager"
+const logoSrc = '/assets/WPC_logo.png';
+
+// Ordered list of doc IDs to include in the PDF (matches navigation order)
+const DOC_ORDER = [
+  'documentation/video/lowering_screen',
+  'documentation/video/retracting_screen',
+  'documentation/video/turning_projector_on',
+  'documentation/video/turning_projector_off',
+  'documentation/video/inputs',
+  'documentation/audio/turning_sound_system_on',
+  'documentation/audio/wall_audio_controls',
+  'documentation/audio/computer_audio',
+  'documentation/audio/bluetooth_pairing',
+  'documentation/audio/microphones',
+];
+
+const TOC = [
+  { section: 'Video', items: [
+    'Lowering Projector Screen',
+    'Retracting Projector Screen',
+    'Turning Projector / Rear TV On',
+    'Turning Projector / Rear TV Off',
+    'Input Methods',
+  ]},
+  { section: 'Audio', items: [
+    'Turning the Sound System On',
+    'Using Wall Audio Controls',
+    'Using Computer Audio',
+    'Bluetooth Pairing',
+    'Connecting and Using Microphones',
+  ]},
+];
+
+const allDocs = await getCollection('docs');
+
+const ordered = DOC_ORDER.map(id => {
+  const entry = allDocs.find(d => d.id === id || d.id === id + '/index');
+  return entry;
+}).filter(Boolean);
+
+const rendered = await Promise.all(ordered.map(async (entry) => {
+  const { Content } = await render(entry);
+  return { entry, Content };
+}));
+---
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Guest Documentation — Westminster Presbyterian Church</title>
+  <style is:global>
+    /* ── Force all backgrounds and colors to print ────── */
+    *, *::before, *::after {
+      -webkit-print-color-adjust: exact !important;
+      print-color-adjust: exact !important;
+      box-sizing: border-box;
+    }
+
+    /* ── Reset ────────────────────────────────────────── */
+    * { margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+      font-size: 11pt;
+      line-height: 1.6;
+      color: #1a1a2e;
+      background: white;
+    }
+
+    /* ── Page sections ────────────────────────────────── */
+    /* Puppeteer adds 0.75in margins itself — no padding needed here */
+    .cover, .toc-page, .doc-section {
+      width: 100%;
+    }
+
+    /* ── Cover page ───────────────────────────────────── */
+    .cover {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+      background: #f8f9ff;
+      break-after: page;
+    }
+
+    .cover img {
+      width: 100px;
+      height: auto;
+      margin-bottom: 2rem;
+    }
+
+    .cover h1 {
+      font-size: 28pt;
+      font-weight: 700;
+      color: #1a237e;
+      margin-bottom: 0.5rem;
+    }
+
+    .cover h2 {
+      font-size: 14pt;
+      font-weight: 400;
+      color: #555;
+      margin-bottom: 3rem;
+    }
+
+    .cover-meta {
+      font-size: 10pt;
+      color: #888;
+      margin-top: 3rem;
+    }
+
+    .cover-meta p { margin-bottom: 0.25rem; }
+
+    /* ── TOC ──────────────────────────────────────────── */
+    .toc-page {
+      break-after: page;
+    }
+
+    .toc-page h2 {
+      font-size: 18pt;
+      color: #1a237e;
+      margin-bottom: 1.5rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 2px solid #3949ab;
+    }
+
+    .toc-section {
+      margin-bottom: 1.25rem;
+    }
+
+    .toc-section-title {
+      font-size: 12pt;
+      font-weight: 700;
+      color: #3949ab;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 0.4rem;
+    }
+
+    .toc-items {
+      list-style: none;
+      padding-left: 1rem;
+    }
+
+    .toc-items li {
+      padding: 0.2rem 0;
+      font-size: 11pt;
+      display: flex;
+      align-items: baseline;
+      gap: 0.4rem;
+    }
+
+    .toc-items li::before {
+      content: '–';
+      color: #888;
+      flex-shrink: 0;
+    }
+
+    /* ── Doc sections ─────────────────────────────────── */
+    .doc-section {
+      break-before: page;
+    }
+
+    /* ── Headings ─────────────────────────────────────── */
+    h1 { font-size: 20pt; color: #1a237e; margin-bottom: 1rem; padding-bottom: 0.4rem; border-bottom: 2px solid #3949ab; }
+    h2 { font-size: 14pt; color: #283593; margin: 1.5rem 0 0.6rem; }
+    h3 { font-size: 12pt; color: #3949ab; margin: 1.2rem 0 0.4rem; }
+    h4 { font-size: 11pt; font-weight: 700; color: #3949ab; margin: 1rem 0 0.3rem; }
+
+    /* Hide Starlight anchor link icons in print */
+    .sl-anchor-link, .sl-heading-wrapper { display: block; }
+    .sl-anchor-link { display: none; }
+    .sl-heading-wrapper { display: block; margin: 0; }
+
+    /* ── Body text ────────────────────────────────────── */
+    p { margin-bottom: 0.75rem; }
+    a { color: #3949ab; text-decoration: none; }
+
+    /* ── Bullet lists ─────────────────────────────────── */
+    ul { padding-left: 1.5rem; margin-bottom: 0.75rem; }
+    ul li { margin-bottom: 0.25rem; }
+
+    /* ── Code ─────────────────────────────────────────── */
+    code {
+      font-family: 'Consolas', 'Courier New', monospace;
+      font-size: 9.5pt;
+      background: #f0f0f8;
+      padding: 0.1em 0.35em;
+      border-radius: 3px;
+      color: #1a237e;
+    }
+
+    pre { background: #f0f0f8; padding: 0.75rem; border-radius: 4px; margin-bottom: 0.75rem; }
+    pre code { background: none; padding: 0; }
+
+    /* ── Images ───────────────────────────────────────── */
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 4px;
+      margin: 0.5rem 0;
+    }
+
+    /* ── Starlight Steps ──────────────────────────────── */
+    /*
+     * Starlight renders <Steps> as:
+     *   <ol role="list" class="sl-steps">
+     *     <li>...</li>
+     *   </ol>
+     * Use position:absolute for the counter circle so it reliably
+     * sits to the left of the content in both screen and Puppeteer.
+     */
+    ol.sl-steps {
+      list-style: none !important;
+      padding-left: 0 !important;
+      margin-bottom: 0.75rem;
+      counter-reset: steps-counter;
+    }
+
+    ol.sl-steps > li {
+      counter-increment: steps-counter;
+      position: relative;
+      padding-left: 2.5rem;
+      margin-bottom: 0.85rem;
+      min-height: 1.75rem;
+    }
+
+    ol.sl-steps > li::before {
+      content: counter(steps-counter);
+      position: absolute;
+      left: 0;
+      top: 0.1rem;
+      width: 1.75rem;
+      height: 1.75rem;
+      background-color: #3949ab !important;
+      color: #ffffff !important;
+      border-radius: 50%;
+      font-size: 9pt;
+      font-weight: 700;
+      text-align: center;
+      line-height: 1.75rem;
+      box-sizing: border-box;
+    }
+
+    /* Cancel Starlight's @layer translateY shift on the first child of each
+       step li — without --sl-line-height defined it can produce a negative
+       shift that pushes the first paragraph up into the counter circle. */
+    ol.sl-steps > li > :first-child {
+      transform: none !important;
+      margin-bottom: 0 !important;
+    }
+
+    /* ── Starlight Aside ──────────────────────────────── */
+    .starlight-aside {
+      border-left: 4px solid #3949ab !important;
+      background-color: #f0f2ff !important;
+      padding: 0.6rem 0.9rem;
+      border-radius: 0 4px 4px 0;
+      margin: 0.75rem 0;
+      break-inside: avoid;
+    }
+
+    .starlight-aside--caution {
+      border-left-color: #e65100 !important;
+      background-color: #fff8f0 !important;
+    }
+
+    .starlight-aside--danger {
+      border-left-color: #b71c1c !important;
+      background-color: #fff0f0 !important;
+    }
+
+    .starlight-aside--tip {
+      border-left-color: #1b5e20 !important;
+      background-color: #f0fff4 !important;
+    }
+
+    .starlight-aside__title {
+      font-weight: 700;
+      font-size: 9.5pt;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 0.3rem;
+      color: #3949ab;
+      display: flex;
+      align-items: center;
+      gap: 0.3rem;
+    }
+
+    .starlight-aside--caution .starlight-aside__title { color: #e65100; }
+    .starlight-aside--danger  .starlight-aside__title { color: #b71c1c; }
+    .starlight-aside--tip     .starlight-aside__title { color: #1b5e20; }
+
+    .starlight-aside__icon { display: none; } /* hide SVG icon in print */
+
+    /* ── Starlight Tabs — show all panels ─────────────── */
+    .starlight-tabs { margin: 0.75rem 0; }
+    [role="tablist"] { display: none !important; }
+
+    [role="tabpanel"] {
+      display: block !important;
+      border: 1px solid #c5cae9;
+      border-radius: 4px;
+      padding: 0.6rem 0.9rem;
+      margin-bottom: 0.5rem;
+    }
+
+    [role="tabpanel"][hidden] {
+      display: block !important;
+    }
+
+    /* ── Tables ───────────────────────────────────────── */
+    table { width: 100%; border-collapse: collapse; margin-bottom: 0.75rem; font-size: 10pt; }
+    th { background-color: #e8eaf6 !important; font-weight: 700; text-align: left; padding: 0.4rem 0.6rem; border: 1px solid #c5cae9; }
+    td { padding: 0.35rem 0.6rem; border: 1px solid #c5cae9; }
+    tr:nth-child(even) td { background-color: #f5f5ff !important; }
+
+    /* ── Page layout ──────────────────────────────────── */
+    /* @page rules intentionally omitted — Puppeteer's page.pdf() settings
+       control format and margins. Adding @page margin here would double
+       the whitespace and shrink the content area. */
+
+    @media print {
+      .print-bar { display: none !important; }
+      body { padding-top: 0; }
+
+      /* Each guide starts on its own page */
+      .doc-section { break-before: page; }
+
+      /* Headings stay with the following content */
+      h1, h2, h3, h4 { break-after: avoid; }
+
+      /* Images don't split — but don't prevent breaks BEFORE them
+         (break-before: avoid causes large whitespace gaps by pulling
+          preceding content forward when an image can't fit) */
+      img { break-inside: avoid; max-width: 100%; height: auto; }
+
+      /* Only keep small atomic units together — not entire lists or panels
+         which can be multi-page and create the same whitespace problem */
+      ol.sl-steps > li { break-inside: avoid; }
+      .starlight-aside { break-inside: avoid; }
+
+      /* Suppress orphan/widow single lines */
+      p { orphans: 2; widows: 2; }
+    }
+
+    /* ── Screen-only print bar ────────────────────────── */
+    .print-bar {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      background: #1a237e;
+      color: white;
+      padding: 0.6rem 1rem;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      z-index: 100;
+      font-size: 11pt;
+    }
+
+    .print-bar button {
+      background: white;
+      color: #1a237e;
+      border: none;
+      padding: 0.3rem 1rem;
+      border-radius: 4px;
+      font-weight: 700;
+      cursor: pointer;
+      font-size: 10pt;
+    }
+
+    .print-bar button:hover { background: #e8eaf6; }
+
+    body { padding-top: 2.75rem; }
+    @media print { body { padding-top: 0; } }
+  </style>
+</head>
+<body>
+
+  <div class="print-bar">
+    <span>Print-ready view — Westminster Presbyterian Church Guest Documentation</span>
+    <button onclick="window.print()">Print / Save as PDF</button>
+    <a href="/" style="color:white;margin-left:auto;">← Back to site</a>
+  </div>
+
+  <!-- Cover Page -->
+  <div class="cover">
+    <img src={logoSrc} alt="Westminster Presbyterian Church" width="100" height="100" loading="eager" />
+    <h1>Guest Documentation</h1>
+    <h2>Westminster Presbyterian Church — Mackey Hall Technology</h2>
+    <p style="color:#555;margin-top:2rem;max-width:30rem;">
+      Step-by-step guides for operating the projector, rear TV, sound system, and audio devices in Mackey Hall.
+    </p>
+    <div class="cover-meta">
+      <p>docs.wpctech.info</p>
+      <p>For questions: jack@wpcwooster.org</p>
+    </div>
+  </div>
+
+  <!-- Table of Contents -->
+  <div class="toc-page">
+    <h2>Table of Contents</h2>
+    {TOC.map(({ section, items }) => (
+      <div class="toc-section">
+        <div class="toc-section-title">{section}</div>
+        <ul class="toc-items">
+          {items.map(item => <li>{item}</li>)}
+        </ul>
+      </div>
+    ))}
+  </div>
+
+  <!-- Documentation Pages -->
+  {rendered.map(({ entry, Content }) => (
+    <div class="doc-section">
+      <h1>{entry.data.title}</h1>
+      <Content />
+    </div>
+  ))}
+
+  <!-- Eagerly load all images so Puppeteer doesn't miss them -->
+  <script>
+    document.querySelectorAll('img').forEach(img => {
+      img.loading = 'eager';
+      img.decoding = 'sync';
+    });
+  </script>
+
+</body>
+</html>

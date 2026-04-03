@@ -1,0 +1,8 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "framework": null,
+  "env": {
+    "PUPPETEER_CACHE_DIR": ".puppeteer-cache"
+  }
+}

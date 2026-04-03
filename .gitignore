@@ -1,2 +1,17 @@
 
+# Build output
+dist/
+.astro/
+
+
+# Dependencies
+node_modules/
+
+# Logs
 log.csv
+
+# Puppeteer Chromium cache (downloaded during build)
+.puppeteer-cache/
+
+# Claude
+.claude/
