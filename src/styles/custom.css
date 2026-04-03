@@ -26,17 +26,24 @@
   overflow-x: hidden;
 }
 
-/* Narrow the right-hand ToC sidebar — override both the container column
-   reservation and the fixed panel width */
+/* Narrow the right-hand ToC sidebar */
 @media (min-width: 72rem) {
   .right-sidebar-container {
-    width: 9rem !important;
+    width: 7rem !important;
+    min-width: 0 !important;
   }
   .right-sidebar {
-    width: 9rem !important;
+    width: 7rem !important;
     min-width: 0 !important;
   }
   .right-sidebar-panel {
-    --sl-sidebar-width: 9rem;
+    width: 7rem !important;
+    min-width: 0 !important;
+    --sl-sidebar-width: 7rem;
+  }
+  /* Keep link text from overflowing the narrowed column */
+  .right-sidebar a {
+    font-size: 0.75rem;
+    word-break: break-word;
   }
 }
