@@ -26,10 +26,18 @@
   overflow-x: hidden;
 }
 
-/* Narrow the right-hand ToC sidebar */
+/* Narrow the right-hand ToC sidebar and give the freed space to the content.
+   The parent is a flexbox (.lg:sl-flex). Pinning the sidebar to 7rem with
+   flex: 0 0 7rem and setting flex: 1 on .main-pane makes the content column
+   expand to fill all remaining space instead of leaving a blank gap. */
 @media (min-width: 72rem) {
   .right-sidebar-container {
+    flex: 0 0 7rem !important;
     width: 7rem !important;
+    min-width: 0 !important;
+  }
+  .main-pane {
+    flex: 1 !important;
     min-width: 0 !important;
   }
   .right-sidebar {
@@ -39,7 +47,6 @@
   .right-sidebar-panel {
     width: 7rem !important;
     min-width: 0 !important;
-    --sl-sidebar-width: 7rem;
   }
   /* Keep link text from overflowing the narrowed column */
   .right-sidebar a {
