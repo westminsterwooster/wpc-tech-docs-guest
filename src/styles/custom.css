@@ -28,13 +28,12 @@
 
 /* .sl-container is the inner wrapper that Starlight constrains to 45rem
    (--sl-content-width) and right-aligns with margin-inline: auto 0.
-   At wide viewports this leaves a large empty gap on the left.
-   Allow it to fill the full available pane width instead. */
+   On doc pages (data-has-toc) at wide viewports this leaves a large empty
+   gap on the left. Left-align it so the gap is on the right instead.
+   Scoped to [data-has-toc] so the homepage centering is not affected. */
 @media (min-width: 72rem) {
-  .main-pane .sl-container {
-    max-width: 100% !important;
-    margin-inline: 0 !important;
-    width: 100% !important;
+  [data-has-toc] .main-pane .sl-container {
+    margin-inline-start: 0 !important;
   }
 }
 
@@ -65,7 +64,7 @@
   }
   /* Keep link text from overflowing the narrowed column */
   .right-sidebar a {
-    font-size: 0.75rem;
+    font-size: 0.8rem;
     word-break: break-word;
     overflow-wrap: anywhere;
   }
