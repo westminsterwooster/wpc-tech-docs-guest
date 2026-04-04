@@ -27,15 +27,14 @@
 }
 
 /* Narrow the right-hand ToC sidebar.
-   .right-sidebar is position:fixed (Starlight default) so it's anchored to
-   the viewport, not its container. We pin it to the right edge with right:0
-   and width:7rem. The container stays in the flex layout as a 7rem spacer so
-   content doesn't slide under the fixed sidebar. */
+   Switch .right-sidebar from position:fixed to position:sticky so it is
+   contained within its flex column instead of floating over the viewport.
+   The container is the spacer that reserves the column width in the layout. */
 @media (min-width: 72rem) {
   .right-sidebar-container {
-    flex: 0 0 7rem !important;
-    width: 7rem !important;
-    max-width: 7rem !important;
+    flex: 0 0 9rem !important;
+    width: 9rem !important;
+    max-width: 9rem !important;
     min-width: 0 !important;
   }
   .main-pane {
@@ -44,18 +43,18 @@
     min-width: 0 !important;
   }
   .right-sidebar {
-    right: 0 !important;
+    position: sticky !important;
+    top: 0 !important;
+    right: auto !important;
     left: auto !important;
-    width: 7rem !important;
-    min-width: 0 !important;
-  }
-  .right-sidebar-panel {
-    width: 7rem !important;
-    min-width: 0 !important;
+    width: 100% !important;
+    height: 100vh !important;
+    overflow-y: auto !important;
   }
   /* Keep link text from overflowing the narrowed column */
   .right-sidebar a {
     font-size: 0.75rem;
     word-break: break-word;
+    overflow-wrap: anywhere;
   }
 }
