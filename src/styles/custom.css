@@ -26,12 +26,11 @@
   overflow-x: hidden;
 }
 
-/* Narrow the right-hand ToC sidebar and give the freed space to the content.
-   The parent is a flexbox (.lg:sl-flex).
-   - right-sidebar-container: pinned to exactly 7rem (no grow, no shrink)
-   - main-pane: flex:1 fills the rest; width:auto overrides Starlight's
-     explicit calc-based width; min-width:0 prevents the default
-     min-width:auto from letting content overflow and push the sidebar off-screen */
+/* Narrow the right-hand ToC sidebar.
+   .right-sidebar is position:fixed (Starlight default) so it's anchored to
+   the viewport, not its container. We pin it to the right edge with right:0
+   and width:7rem. The container stays in the flex layout as a 7rem spacer so
+   content doesn't slide under the fixed sidebar. */
 @media (min-width: 72rem) {
   .right-sidebar-container {
     flex: 0 0 7rem !important;
@@ -45,6 +44,8 @@
     min-width: 0 !important;
   }
   .right-sidebar {
+    right: 0 !important;
+    left: auto !important;
     width: 7rem !important;
     min-width: 0 !important;
   }
