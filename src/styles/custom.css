@@ -26,6 +26,18 @@
   overflow-x: hidden;
 }
 
+/* .sl-container is the inner wrapper that Starlight constrains to 45rem
+   (--sl-content-width) and right-aligns with margin-inline: auto 0.
+   At wide viewports this leaves a large empty gap on the left.
+   Allow it to fill the full available pane width instead. */
+@media (min-width: 72rem) {
+  .main-pane .sl-container {
+    max-width: 100% !important;
+    margin-inline: 0 !important;
+    width: 100% !important;
+  }
+}
+
 /* Narrow the right-hand ToC sidebar.
    Switch .right-sidebar from position:fixed to position:sticky so it is
    contained within its flex column instead of floating over the viewport.
