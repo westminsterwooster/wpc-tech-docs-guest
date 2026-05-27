@@ -1,2 +1,6 @@
 
 log.csv
+node_modules/
+build/
+.docusaurus/
+.cache/

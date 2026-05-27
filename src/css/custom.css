@@ -1,0 +1,16 @@
+:root {
+  --ifm-color-primary: #3f51b5;
+  --ifm-color-primary-dark: #3949a3;
+  --ifm-color-primary-darker: #354599;
+  --ifm-color-primary-darkest: #2c397e;
+  --ifm-color-primary-light: #5362bd;
+  --ifm-color-primary-lighter: #5d6bc2;
+  --ifm-color-primary-lightest: #7a85cd;
+  --ifm-code-font-size: 95%;
+}
+
+.markdown img {
+  border-radius: 6px;
+  max-height: 720px;
+  object-fit: contain;
+}
