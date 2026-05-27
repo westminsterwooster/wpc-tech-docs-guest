@@ -39,14 +39,36 @@ function stripFrontMatter(markdown) {
   return markdown.replace(/^---\r?\n[\s\S]*?\r?\n---\r?\n/, '');
 }
 
+const unsupportedPdfImageExtensions = new Set(['.avif', '.webp']);
+
+function markdownTargetPath(target) {
+  return target.split(/(?=[#?])/)[0];
+}
+
+function markdownTargetExtension(target) {
+  const pathPart = markdownTargetPath(target);
+  const dot = pathPart.lastIndexOf('.');
+  return dot === -1 ? '' : pathPart.slice(dot).toLowerCase();
+}
+
+function pdfImageFallback(altText) {
+  const label = altText.trim() || 'Image';
+  return `**Image:** ${label} (available in the online documentation)`;
+}
+
 function absolutizeMarkdownAssets(markdown, filePath) {
   const pageDir = dirname(filePath);
-  return markdown.replace(/(!\[[^\]]*]\()([^):#][^)]+)(\))/g, (match, open, target, close) => {
+  return markdown.replace(/!\[([^\]]*)]\(([^):#][^)]+)\)/g, (match, altText, target) => {
     if (/^(?:https?:|mailto:|\/)/.test(target)) return match;
     const [pathPart, suffix = ''] = target.split(/(?=[#?])/);
+
+    if (unsupportedPdfImageExtensions.has(markdownTargetExtension(target))) {
+      return pdfImageFallback(altText);
+    }
+
     const absolute = normalize(join(pageDir, pathPart));
     const docsRelative = relative(docsRoot, absolute).replaceAll('\\', '/');
-    return `${open}${docsRelative}${suffix}${close}`;
+    return `![${altText}](${docsRelative}${suffix})`;
   });
 }
 
