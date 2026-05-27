@@ -1,14 +1,11 @@
-# Using Wall Audio Controls
+# Using Audio Controls
 
-This guide explains how to use the wall touchscreen audio controls in Mackey Hall.
+This guide explains how to use the iPad touchscreen audio controls in Mackey Hall.
 
 If the sound system is not on, see [Turning the Sound System On](turning_sound_system_on.md).
 
-## Open Audio Levels
-1. On the wall touchscreen Homepage, press `Audio`.
-   ![Control Screen Homepage](../../assets/images/video/control-screen_new/homepage.png)
-2. On the Audio page, press `Audio Levels`.
-   ![Audio Page](../../assets/images/video/control-screen_new/audio.png)
+## Get Control iPad
+Locate the control iPad, which is housed in a black freestanding case. It is typically positioned on top of the sound system rack.
 
 ## Select a Preset
 1. On the **Select a Preset** screen, choose the preset you need:

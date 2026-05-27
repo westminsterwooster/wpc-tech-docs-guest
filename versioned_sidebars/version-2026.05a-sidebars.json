@@ -3,18 +3,8 @@
     "index",
     {
       "type": "category",
-      "label": "About",
-      "link": {
-        "type": "doc",
-        "id": "about"
-      },
-      "items": [
-        "changelog"
-      ]
-    },
-    {
-      "type": "category",
       "label": "Documentation",
+      "collapsed": false,
       "link": {
         "type": "doc",
         "id": "documentation/index"
@@ -23,6 +13,8 @@
         {
           "type": "category",
           "label": "Video",
+          "collapsed": false,
+          "collapsible": false,
           "items": [
             "documentation/video/lowering_screen",
             "documentation/video/retracting_screen",
@@ -34,6 +26,8 @@
         {
           "type": "category",
           "label": "Audio",
+          "collapsed": false,
+          "collapsible": false,
           "items": [
             "documentation/audio/turning_sound_system_on",
             "documentation/audio/wall_audio_controls",
@@ -41,15 +35,10 @@
             "documentation/audio/bluetooth_pairing",
             "documentation/audio/microphones"
           ]
-        },
-        {
-          "type": "category",
-          "label": "Troubleshooting",
-          "items": [
-            "comingsoon"
-          ]
         }
       ]
-    }
+    },
+    "about",
+    "changelog"
   ]
 }

@@ -4,7 +4,7 @@ This guide explains how to set up and use microphones in Mackey Hall with the wa
 
 ## Before You Start
 1. Make sure the sound system is on. If needed, see [Turning the Sound System On](turning_sound_system_on.md).
-2. Open the wall touchscreen audio controls and select the correct preset. If needed, see [Using Wall Audio Controls](wall_audio_controls.md).
+2. Open the wall touchscreen audio controls and select the correct preset. If needed, see [Using Audio Controls](wall_audio_controls.md).
 3. Use `Pulpit Wired Mics` for pulpit channels `Pulpit 1` and `Pulpit 2`.
 4. Use `Wireless Mics` for `Wireless 1`, `Wireless 2`, and `Lapel`.
 

@@ -14,11 +14,10 @@ If the sound system is not on, see [Turning the Sound System On](turning_sound_s
 4. If room speakers are unmuted, you should hear a beep when pairing mode starts.
 
 ### Method 2: From Audio Levels -> Computer + Bluetooth Inputs
-1. On the Audio page, press `Audio Levels`.
-2. On **Select a Preset**, choose `Computer + Bluetooth Inputs`.
-3. On that page, press `Bluetooth Pairing`.
-4. Wait a few seconds for pairing mode to activate.
-5. If room speakers are unmuted, you should hear a beep when pairing mode starts.
+1. On **Select a Preset**, choose `Computer + Bluetooth Inputs`.
+2. On that page, press `Bluetooth Pairing`.
+3. Wait a few seconds for pairing mode to activate.
+4. If room speakers are unmuted, you should hear a beep when pairing mode starts.
 
 ## Connect Your Device
 1. On your phone, tablet, or computer, open Bluetooth settings.

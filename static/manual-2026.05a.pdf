@@ -3,7 +3,7 @@
 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
 endobj
 2 0 obj
-<< /Length 1225 >>
+<< /Length 2213 >>
 stream
 BT
 /F1 10 Tf
@@ -18,67 +18,67 @@ T* () Tj
 T* () Tj
 T* (\\newpage) Tj
 T* () Tj
-T* (Guest Documentation | Westminster Presbyterian Church - Mackey Hall Technology) Tj
+T* (WPC Guest Technology Documentation) Tj
 T* () Tj
+T* (Use this guide to run Mackey Hall video and audio for a meeting, class, presentation, or) Tj
+T* (event. If you are not sure where to start, follow the quick start checklist first, then open) Tj
+T* (the guide for the specific equipment you need.) Tj
 T* () Tj
+T* (Quick Start) Tj
+T* (1. Turn on the sound system if you need microphones, computer audio, or Bluetooth audio.) Tj
+T* (2. Lower the projector screen if the projector will be used.) Tj
+T* (3. Turn on the projector or rear TV.) Tj
+T* (4. Connect your device and select the matching video input.) Tj
+T* (5. Use the iPad audio controls to choose the right preset and unmute the channels you need.) Tj
+T* (6. Test both picture and sound before the event begins.) Tj
 T* () Tj
-T* (\\newpage) Tj
+T* (Choose What You Need) Tj
+T* (| Need | Start Here |) Tj
+T* (| --- | --- |) Tj
+T* (| Show a laptop, Church PC, or other video source | Computer Input Methods |) Tj
+T* (| Lower or raise the projector screen | Lowering Projector Screen or Retracting Projector) Tj
+T* (Screen |) Tj
+T* (| Turn the projector or rear TV on or off | Turning Projector / Rear TV On or Turning) Tj
+T* (Projector / Rear TV Off |) Tj
+T* (| Use microphones | Connecting and Using Microphones |) Tj
+T* (| Play sound from a computer | Using Computer Audio |) Tj
+T* (| Play sound from a phone, tablet, or laptop over Bluetooth | Bluetooth Pairing |) Tj
+T* (| Adjust volume, presets, or muted channels | Using Audio Controls |) Tj
 T* () Tj
-T* (Guest Documentation | Westminster Presbyterian Church - Mackey Hall Technology) Tj
+T* (Shutdown Checklist) Tj
+T* (1. Turn off the projector or rear TV.) Tj
+T* (2. Retract the projector screen if it was lowered.) Tj
+T* (3. Mute or lower audio channels on the iPad if needed.) Tj
+T* (4. Disconnect personal devices and return cables, microphones, and the iPad to their normal) Tj
+T* (locations.) Tj
 T* () Tj
-T* (The Westminster Presbyterian Church Guest Technology Documentation is a reference guide for) Tj
-T* (guests using the technology in Mackey Hall.) Tj
-T* () Tj
-T* (---) Tj
-T* () Tj
-T* (Notes) Tj
-T* () Tj
-T* (This document is a work in progress. Please ignore any grammatical mistakes and let us know) Tj
-T* (so that we can correct them accordingly.) Tj
-T* () Tj
-T* () Tj
-T* (For any questions or comments, please email me.) Tj
-T* () Tj
-T* (---) Tj
-T* () Tj
-T* (Licenses) Tj
-T* () Tj
-T* (Westminster Presbyterian Church Guest Technology Documentation) Tj
-T* () Tj
-T* (View License) Tj
-T* () Tj
-T* (---) Tj
-T* () Tj
-T* (Docusaurus) Tj
-T* () Tj
-T* (Docusaurus is used under the MIT license.) Tj
-T* () Tj
-T* (View License) Tj
-T* () Tj
-T* () Tj
-T* () Tj
+T* (Full Guide List) Tj
+T* (Video) Tj
+T* (1. Lowering Projector Screen) Tj
+T* (2. Retracting Projector Screen) Tj
+T* (3. Turning Projector / Rear TV On) Tj
 ET
 endstream
 endobj
 3 0 obj
-<< /Type /Page /Parent 26 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R >> >> /Contents 2 0 R >>
+<< /Type /Page /Parent 28 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R >> >> /Contents 2 0 R >>
 endobj
 4 0 obj
-<< /Length 2157 >>
+<< /Length 2177 >>
 stream
 BT
 /F1 10 Tf
 50 760 Td
 14 TL
-(\\newpage) Tj
+(4. Turning Projector / Rear TV Off) Tj
+T* (5. Computer Input Methods) Tj
 T* () Tj
-T* (Changelog) Tj
-T* () Tj
-T* (2026.05a) Tj
-T* () Tj
-T* (- Migrated the documentation site from MkDocs Material to Docusaurus.) Tj
-T* (- Published the documentation as Docusaurus version 2026.05a.) Tj
-T* (- Added an automated Pandoc-based PDF manual workflow.) Tj
+T* (Audio) Tj
+T* (1. Turning the Sound System On) Tj
+T* (2. Using Audio Controls) Tj
+T* (3. Using Computer Audio) Tj
+T* (4. Bluetooth Pairing) Tj
+T* (5. Connecting and Using Microphones) Tj
 T* () Tj
 T* () Tj
 T* () Tj
@@ -86,53 +86,65 @@ T* (\\newpage) Tj
 T* () Tj
 T* (WPC Guest Technology Documentation) Tj
 T* () Tj
-T* (Welcome to the guest documentation for Mackey Hall AV systems. This guide is designed to) Tj
-T* (provide clear, step-by-step instructions for operating the projector, rear TV, sound system,) Tj
-T* (and audio input devices.) Tj
+T* (Use this guide to run Mackey Hall video and audio for a meeting, class, presentation, or) Tj
+T* (event. If you are not sure where to start, follow the quick start checklist first, then open) Tj
+T* (the guide for the specific equipment you need.) Tj
 T* () Tj
-T* (Start Here) Tj
-T* (Before your event:) Tj
-T* (- Power on the required systems before connecting devices.) Tj
-T* (- Confirm the correct input source is selected.) Tj
-T* (- Test audio and video output before your event begins.) Tj
-T* (- Follow shutdown steps after use to protect equipment life.) Tj
+T* (Quick Start) Tj
+T* (1. Turn on the sound system if you need microphones, computer audio, or Bluetooth audio.) Tj
+T* (2. Lower the projector screen if the projector will be used.) Tj
+T* (3. Turn on the projector or rear TV.) Tj
+T* (4. Connect your device and select the matching video input.) Tj
+T* (5. Use the iPad audio controls to choose the right preset and unmute the channels you need.) Tj
+T* (6. Test both picture and sound before the event begins.) Tj
 T* () Tj
-T* (Video Guides) Tj
-T* (Use these guides to manage screen control, display power, and source selection.) Tj
+T* (Choose What You Need) Tj
+T* (| Need | Start Here |) Tj
+T* (| --- | --- |) Tj
+T* (| Show a laptop, Church PC, or other video source | Computer Input Methods |) Tj
+T* (| Lower or raise the projector screen | Lowering Projector Screen or Retracting Projector) Tj
+T* (Screen |) Tj
+T* (| Turn the projector or rear TV on or off | Turning Projector / Rear TV On or Turning) Tj
+T* (Projector / Rear TV Off |) Tj
+T* (| Use microphones | Connecting and Using Microphones |) Tj
+T* (| Play sound from a computer | Using Computer Audio |) Tj
+T* (| Play sound from a phone, tablet, or laptop over Bluetooth | Bluetooth Pairing |) Tj
+T* (| Adjust volume, presets, or muted channels | Using Audio Controls |) Tj
 T* () Tj
-T* (1. Lowering Projector Screen: Proper procedure for lowering the projector screen for) Tj
-T* (viewing.) Tj
-T* (2. Retracting Projector Screen: Safe retraction steps to prevent wear or damage.) Tj
-T* (3. Turning Projector / Rear TV On: Startup process for the display systems.) Tj
-T* (4. Turning Projector / Rear TV Off: Correct shutdown process for long-term reliability.) Tj
-T* (5. Input Methods: How to choose and use available video input options.) Tj
+T* (Shutdown Checklist) Tj
+T* (1. Turn off the projector or rear TV.) Tj
+T* (2. Retract the projector screen if it was lowered.) Tj
+T* (3. Mute or lower audio channels on the iPad if needed.) Tj
+T* (4. Disconnect personal devices and return cables, microphones, and the iPad to their normal) Tj
+T* (locations.) Tj
 T* () Tj
-T* (Audio Guides) Tj
-T* (Use these guides to power, connect, and optimize room audio.) Tj
-T* () Tj
-T* (1. Turning Sound System On: Startup process for the sound system.) Tj
-T* (2. Using Wall Audio Controls: Use the wall touchscreen to select audio presets, unmute) Tj
-T* (channels, and adjust levels.) Tj
-T* (3. Using Computer Audio: How to route and use audio from a computer.) Tj
-T* (4. Bluetooth Pairing: Pair a phone, tablet, or computer to the room Bluetooth receiver.) Tj
-T* (5. Connecting and Using Microphones: Setup and usage basics for microphones.) Tj
-T* () Tj
-T* (Need More Help?) Tj
 ET
 endstream
 endobj
 5 0 obj
-<< /Type /Page /Parent 26 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R >> >> /Contents 4 0 R >>
+<< /Type /Page /Parent 28 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R >> >> /Contents 4 0 R >>
 endobj
 6 0 obj
-<< /Length 1829 >>
+<< /Length 1564 >>
 stream
 BT
 /F1 10 Tf
 50 760 Td
 14 TL
-(If something is not working as expected, check the Troubleshooting section in the) Tj
-T* (Documentation navigation.) Tj
+(Full Guide List) Tj
+T* (Video) Tj
+T* (1. Lowering Projector Screen) Tj
+T* (2. Retracting Projector Screen) Tj
+T* (3. Turning Projector / Rear TV On) Tj
+T* (4. Turning Projector / Rear TV Off) Tj
+T* (5. Computer Input Methods) Tj
+T* () Tj
+T* (Audio) Tj
+T* (1. Turning the Sound System On) Tj
+T* (2. Using Audio Controls) Tj
+T* (3. Using Computer Audio) Tj
+T* (4. Bluetooth Pairing) Tj
+T* (5. Connecting and Using Microphones) Tj
 T* () Tj
 T* () Tj
 T* () Tj
@@ -167,7 +179,20 @@ T* (Retracting Projector Screen) Tj
 T* () Tj
 T* (This guide explains how to retract the projector screen in Mackey Hall.) Tj
 T* () Tj
-T* (If you need the reverse process, see Lowering Projector Screen.) Tj
+ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 28 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R >> >> /Contents 6 0 R >>
+endobj
+8 0 obj
+<< /Length 2146 >>
+stream
+BT
+/F1 10 Tf
+50 760 Td
+14 TL
+(If you need the reverse process, see Lowering Projector Screen.) Tj
 T* () Tj
 T* (Locate the Screen Control) Tj
 T* (The projector screen control switch is on the south wall, to the right of the windows.) Tj
@@ -179,20 +204,7 @@ T* (1. Press the upper half of the screen control switch fully in.) Tj
 T* (2. The switch is a maintained toggle, so it will stay in the selected position.) Tj
 T* (3. Wait while the screen retracts.) Tj
 T* (4. The screen will stop automatically at its fully retracted position.) Tj
-ET
-endstream
-endobj
-7 0 obj
-<< /Type /Page /Parent 26 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R >> >> /Contents 6 0 R >>
-endobj
-8 0 obj
-<< /Length 1939 >>
-stream
-BT
-/F1 10 Tf
-50 760 Td
-14 TL
-(5. Toggle the switch back to the neutral \(center\) position after the screen is fully) Tj
+T* (5. Toggle the switch back to the neutral \(center\) position after the screen is fully) Tj
 T* (retracted.) Tj
 T* () Tj
 T* (Image: Projector Switch in Up Position) Tj
@@ -228,7 +240,20 @@ T* (corner.) Tj
 T* (3. If you are on the Homepage, press Power to open the power controls. If you are already on) Tj
 T* (the Power page, continue to the next step.) Tj
 T* (Image: Control Screen Homepage) Tj
-T* (Press the Power button on the homepage.) Tj
+ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 28 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R >> >> /Contents 8 0 R >>
+endobj
+10 0 obj
+<< /Length 2081 >>
+stream
+BT
+/F1 10 Tf
+50 760 Td
+14 TL
+(Press the Power button on the homepage.) Tj
 T* (4. On the Power page, press Rear TV to power on the rear TV.) Tj
 T* (Image: Power Menu Screen) Tj
 T* (Press Rear TV to power on the rear TV.) Tj
@@ -240,20 +265,7 @@ T* (\\newpage) Tj
 T* () Tj
 T* (Turning Projector / Rear TV Off) Tj
 T* () Tj
-ET
-endstream
-endobj
-9 0 obj
-<< /Type /Page /Parent 26 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R >> >> /Contents 8 0 R >>
-endobj
-10 0 obj
-<< /Length 2291 >>
-stream
-BT
-/F1 10 Tf
-50 760 Td
-14 TL
-(This guide explains how to power off the projector and rear TV in Mackey Hall using the wall) Tj
+T* (This guide explains how to power off the projector and rear TV in Mackey Hall using the wall) Tj
 T* (touchscreen.) Tj
 T* () Tj
 T* (If you need the reverse process, see Turning Projector / Rear TV On.) Tj
@@ -289,7 +301,20 @@ T* () Tj
 T* (\\newpage) Tj
 T* () Tj
 T* (Computer Input Methods) Tj
-T* () Tj
+ET
+endstream
+endobj
+11 0 obj
+<< /Type /Page /Parent 28 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R >> >> /Contents 10 0 R >>
+endobj
+12 0 obj
+<< /Length 2245 >>
+stream
+BT
+/F1 10 Tf
+50 760 Td
+14 TL
+() Tj
 T* (This guide explains how to connect devices in Mackey Hall and switch video sources from the) Tj
 T* (wall touchscreen.) Tj
 T* () Tj
@@ -301,20 +326,7 @@ T* (3. On the touchscreen, select the input that matches the port label you used
 T* () Tj
 T* (Switching Inputs on the Touchscreen) Tj
 T* (1. Go to the wall touchscreen in Mackey Hall.) Tj
-ET
-endstream
-endobj
-11 0 obj
-<< /Type /Page /Parent 26 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R >> >> /Contents 10 0 R >>
-endobj
-12 0 obj
-<< /Length 2163 >>
-stream
-BT
-/F1 10 Tf
-50 760 Td
-14 TL
-(2. If you are not on the Homepage or the Video page, press the Home icon in the top-left) Tj
+T* (2. If you are not on the Homepage or the Video page, press the Home icon in the top-left) Tj
 T* (corner.) Tj
 T* (3. If you are on the Homepage, press Video to open input controls. If you are already on the) Tj
 T* (Video page, continue to the next step.) Tj
@@ -350,7 +362,20 @@ T* () Tj
 T* (HDMI 2 Input) Tj
 T* (Image: HDMI 2 Input) Tj
 T* () Tj
-T* (VGA Inputs) Tj
+ET
+endstream
+endobj
+13 0 obj
+<< /Type /Page /Parent 28 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R >> >> /Contents 12 0 R >>
+endobj
+14 0 obj
+<< /Length 1707 >>
+stream
+BT
+/F1 10 Tf
+50 760 Td
+14 TL
+(VGA Inputs) Tj
 T* (There are two VGA input locations in Mackey Hall:) Tj
 T* (1. Laptop 1 \(VGA\): Under the input selector panel with its matching 3.5mm audio port.) Tj
 T* (2. Laptop 2 \(VGA\): On the wall outside the Scout Closet, under the projector screen, with) Tj
@@ -362,20 +387,7 @@ T* (Laptop 1 Input) Tj
 T* (Image: VGA 1 Input) Tj
 T* () Tj
 T* (Laptop 2 Input) Tj
-ET
-endstream
-endobj
-13 0 obj
-<< /Type /Page /Parent 26 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R >> >> /Contents 12 0 R >>
-endobj
-14 0 obj
-<< /Length 1517 >>
-stream
-BT
-/F1 10 Tf
-50 760 Td
-14 TL
-(Image: VGA 2 Input) Tj
+T* (Image: VGA 2 Input) Tj
 T* () Tj
 T* (RCA Input) Tj
 T* (There is one RCA input under the input selector panel.) Tj
@@ -411,35 +423,33 @@ T* () Tj
 T* (Sound System Ready) Tj
 T* (When the rack power is on and the amplifier power button is blue, the sound system is ready) Tj
 T* (for microphones, computer audio, and Bluetooth audio.) Tj
-T* () Tj
-T* () Tj
-T* () Tj
-T* (\\newpage) Tj
-T* () Tj
-T* (Using Wall Audio Controls) Tj
-T* () Tj
-T* (This guide explains how to use the wall touchscreen audio controls in Mackey Hall.) Tj
-T* () Tj
-T* (If the sound system is not on, see Turning the Sound System On.) Tj
-T* () Tj
-T* (Open Audio Levels) Tj
 ET
 endstream
 endobj
 15 0 obj
-<< /Type /Page /Parent 26 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R >> >> /Contents 14 0 R >>
+<< /Type /Page /Parent 28 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R >> >> /Contents 14 0 R >>
 endobj
 16 0 obj
-<< /Length 1707 >>
+<< /Length 1666 >>
 stream
 BT
 /F1 10 Tf
 50 760 Td
 14 TL
-(1. On the wall touchscreen Homepage, press Audio.) Tj
-T* (Image: Control Screen Homepage) Tj
-T* (2. On the Audio page, press Audio Levels.) Tj
-T* (Image: Audio Page) Tj
+() Tj
+T* () Tj
+T* () Tj
+T* (\\newpage) Tj
+T* () Tj
+T* (Using Audio Controls) Tj
+T* () Tj
+T* (This guide explains how to use the iPad touchscreen audio controls in Mackey Hall.) Tj
+T* () Tj
+T* (If the sound system is not on, see Turning the Sound System On.) Tj
+T* () Tj
+T* (Get Control iPad) Tj
+T* (Locate the control iPad, which is housed in a black freestanding case. It is typically) Tj
+T* (positioned on top of the sound system rack.) Tj
 T* () Tj
 T* (Select a Preset) Tj
 T* (1. On the Select a Preset screen, choose the preset you need:) Tj
@@ -474,7 +484,20 @@ T* (Image: Help Screen) Tj
 T* () Tj
 T* () Tj
 T* () Tj
-T* (\\newpage) Tj
+ET
+endstream
+endobj
+17 0 obj
+<< /Type /Page /Parent 28 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R >> >> /Contents 16 0 R >>
+endobj
+18 0 obj
+<< /Length 1779 >>
+stream
+BT
+/F1 10 Tf
+50 760 Td
+14 TL
+(\\newpage) Tj
 T* () Tj
 T* (Using Computer Audio) Tj
 T* () Tj
@@ -484,20 +507,7 @@ T* () Tj
 T* (If the sound system is not on, see Turning the Sound System On.) Tj
 T* () Tj
 T* (Connect Your Computer) Tj
-ET
-endstream
-endobj
-17 0 obj
-<< /Type /Page /Parent 26 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R >> >> /Contents 16 0 R >>
-endobj
-18 0 obj
-<< /Length 1892 >>
-stream
-BT
-/F1 10 Tf
-50 760 Td
-14 TL
-(1. Connect your computer using one of these methods:) Tj
+T* (1. Connect your computer using one of these methods:) Tj
 T* (- HDMI \(carries video and audio together\)) Tj
 T* (- 3.5mm audio cable \(audio only\)) Tj
 T* (2. If you are also using video, choose the cable type that matches your selected video) Tj
@@ -505,11 +515,7 @@ T* (input.) Tj
 T* (3. For port locations, see Input Methods.) Tj
 T* () Tj
 T* (Open Audio Levels) Tj
-T* (1. On the wall touchscreen Homepage, press Audio.) Tj
-T* (Image: Control Screen Homepage) Tj
-T* (2. On the Audio page, press Audio Levels.) Tj
-T* (Image: Audio Page) Tj
-T* (3. On the Select a Preset screen, press Computer + Bluetooth Inputs.) Tj
+T* (1. On the Select a Preset screen, press Computer + Bluetooth Inputs.) Tj
 T* (Image: Audio Preset Selection) Tj
 T* () Tj
 T* (Use the Computer Input Channel) Tj
@@ -539,34 +545,33 @@ T* (touchscreen.) Tj
 T* () Tj
 T* (If the sound system is not on, see Turning the Sound System On.) Tj
 T* () Tj
-T* (Start Pairing Mode \(Two Ways\)) Tj
-T* (Method 1: From the Audio Page) Tj
-T* (1. On the wall touchscreen Homepage, press Audio.) Tj
-T* (Image: Control Screen Homepage) Tj
-T* (2. On the Audio page, press Bluetooth Pair.) Tj
-T* (Image: Audio Page) Tj
 ET
 endstream
 endobj
 19 0 obj
-<< /Type /Page /Parent 26 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R >> >> /Contents 18 0 R >>
+<< /Type /Page /Parent 28 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R >> >> /Contents 18 0 R >>
 endobj
 20 0 obj
-<< /Length 2276 >>
+<< /Length 2235 >>
 stream
 BT
 /F1 10 Tf
 50 760 Td
 14 TL
-(3. Wait a few seconds for pairing mode to activate.) Tj
+(Start Pairing Mode \(Two Ways\)) Tj
+T* (Method 1: From the Audio Page) Tj
+T* (1. On the wall touchscreen Homepage, press Audio.) Tj
+T* (Image: Control Screen Homepage) Tj
+T* (2. On the Audio page, press Bluetooth Pair.) Tj
+T* (Image: Audio Page) Tj
+T* (3. Wait a few seconds for pairing mode to activate.) Tj
 T* (4. If room speakers are unmuted, you should hear a beep when pairing mode starts.) Tj
 T* () Tj
 T* (Method 2: From Audio Levels -> Computer + Bluetooth Inputs) Tj
-T* (1. On the Audio page, press Audio Levels.) Tj
-T* (2. On Select a Preset, choose Computer + Bluetooth Inputs.) Tj
-T* (3. On that page, press Bluetooth Pairing.) Tj
-T* (4. Wait a few seconds for pairing mode to activate.) Tj
-T* (5. If room speakers are unmuted, you should hear a beep when pairing mode starts.) Tj
+T* (1. On Select a Preset, choose Computer + Bluetooth Inputs.) Tj
+T* (2. On that page, press Bluetooth Pairing.) Tj
+T* (3. Wait a few seconds for pairing mode to activate.) Tj
+T* (4. If room speakers are unmuted, you should hear a beep when pairing mode starts.) Tj
 T* () Tj
 T* (Connect Your Device) Tj
 T* (1. On your phone, tablet, or computer, open Bluetooth settings.) Tj
@@ -599,27 +604,27 @@ T* () Tj
 T* (Before You Start) Tj
 T* (1. Make sure the sound system is on. If needed, see Turning the Sound System On.) Tj
 T* (2. Open the wall touchscreen audio controls and select the correct preset. If needed, see) Tj
-T* (Using Wall Audio Controls.) Tj
+T* (Using Audio Controls.) Tj
 T* (3. Use Pulpit Wired Mics for pulpit channels Pulpit 1 and Pulpit 2.) Tj
-T* (4. Use Wireless Mics for Wireless 1, Wireless 2, and Lapel.) Tj
-T* () Tj
-T* (Pulpit Microphone) Tj
-T* (1. Locate the pulpit microphone and cable, if not already plugged in.) Tj
-T* (2. Plug the microphone into Pulpit 1 or Pulpit 2.) Tj
 ET
 endstream
 endobj
 21 0 obj
-<< /Type /Page /Parent 26 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R >> >> /Contents 20 0 R >>
+<< /Type /Page /Parent 28 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R >> >> /Contents 20 0 R >>
 endobj
 22 0 obj
-<< /Length 2151 >>
+<< /Length 2043 >>
 stream
 BT
 /F1 10 Tf
 50 760 Td
 14 TL
-(3. On the wall controls, open Pulpit Wired Mics.) Tj
+(4. Use Wireless Mics for Wireless 1, Wireless 2, and Lapel.) Tj
+T* () Tj
+T* (Pulpit Microphone) Tj
+T* (1. Locate the pulpit microphone and cable, if not already plugged in.) Tj
+T* (2. Plug the microphone into Pulpit 1 or Pulpit 2.) Tj
+T* (3. On the wall controls, open Pulpit Wired Mics.) Tj
 T* (4. If the selected pulpit channel shows Muted in red, press it once to unmute.) Tj
 T* (5. Set level with +1%, -1%, or the slider.) Tj
 T* () Tj
@@ -662,25 +667,25 @@ T* (Wireless 1 Mute/Unmute Switch) Tj
 T* (Image: Wireless 1 Mute/Unmute Switch) Tj
 T* () Tj
 T* (Wireless 2 \(Handheld 2\)) Tj
-T* (1. Locate Handheld 2 \(kept in the pulpit when not in use\).) Tj
-T* (2. Power: slide the switch to turn the microphone on or off.) Tj
-T* (3. On the wall controls, open Wireless Mics and use channel Wireless 2.) Tj
-T* (4. If channel Wireless 2 shows Muted in red, press it once to unmute.) Tj
-T* (5. Set level with +1%, -1%, or the slider.) Tj
 ET
 endstream
 endobj
 23 0 obj
-<< /Type /Page /Parent 26 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R >> >> /Contents 22 0 R >>
+<< /Type /Page /Parent 28 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R >> >> /Contents 22 0 R >>
 endobj
 24 0 obj
-<< /Length 781 >>
+<< /Length 1716 >>
 stream
 BT
 /F1 10 Tf
 50 760 Td
 14 TL
-() Tj
+(1. Locate Handheld 2 \(kept in the pulpit when not in use\).) Tj
+T* (2. Power: slide the switch to turn the microphone on or off.) Tj
+T* (3. On the wall controls, open Wireless Mics and use channel Wireless 2.) Tj
+T* (4. If channel Wireless 2 shows Muted in red, press it once to unmute.) Tj
+T* (5. Set level with +1%, -1%, or the slider.) Tj
+T* () Tj
 T* (Wireless 2 Reference Images) Tj
 T* (Wireless 2 Microphone Body) Tj
 T* (Image: Wireless 2 Microphone Body) Tj
@@ -700,52 +705,108 @@ T* () Tj
 T* () Tj
 T* (\\newpage) Tj
 T* () Tj
-T* (Coming Soon) Tj
+T* (About) Tj
+T* () Tj
+T* (The Westminster Presbyterian Church Guest Technology Documentation is a reference guide for) Tj
+T* (guests using the technology in Mackey Hall.) Tj
+T* () Tj
+T* (---) Tj
+T* () Tj
+T* (Notes) Tj
+T* () Tj
+T* (This document is a work in progress. Please ignore any grammatical mistakes and let us know) Tj
+T* (so that we can correct them accordingly.) Tj
+T* () Tj
+T* () Tj
+T* (For any questions or comments, please email me.) Tj
+T* () Tj
+T* (---) Tj
+T* () Tj
+T* (Licenses) Tj
+T* () Tj
+T* (Westminster Presbyterian Church Guest Technology Documentation) Tj
+T* () Tj
+T* (View License) Tj
 T* () Tj
 ET
 endstream
 endobj
 25 0 obj
-<< /Type /Page /Parent 26 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R >> >> /Contents 24 0 R >>
+<< /Type /Page /Parent 28 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R >> >> /Contents 24 0 R >>
 endobj
 26 0 obj
-<< /Type /Pages /Kids [3 0 R 5 0 R 7 0 R 9 0 R 11 0 R 13 0 R 15 0 R 17 0 R 19 0 R 21 0 R 23 0 R 25 0 R] /Count 12 >>
+<< /Length 484 >>
+stream
+BT
+/F1 10 Tf
+50 760 Td
+14 TL
+(---) Tj
+T* () Tj
+T* (Docusaurus) Tj
+T* () Tj
+T* (Docusaurus is used under the MIT license.) Tj
+T* () Tj
+T* (View License) Tj
+T* () Tj
+T* () Tj
+T* () Tj
+T* (\\newpage) Tj
+T* () Tj
+T* (Changelog) Tj
+T* () Tj
+T* (2026.05a) Tj
+T* () Tj
+T* (- Migrated the documentation site from MkDocs Material to Docusaurus.) Tj
+T* (- Published the documentation as Docusaurus version 2026.05a.) Tj
+T* (- Added an automated Pandoc-based PDF manual workflow.) Tj
+T* () Tj
+ET
+endstream
 endobj
 27 0 obj
-<< /Type /Catalog /Pages 26 0 R >>
+<< /Type /Page /Parent 28 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R >> >> /Contents 26 0 R >>
+endobj
+28 0 obj
+<< /Type /Pages /Kids [3 0 R 5 0 R 7 0 R 9 0 R 11 0 R 13 0 R 15 0 R 17 0 R 19 0 R 21 0 R 23 0 R 25 0 R 27 0 R] /Count 13 >>
+endobj
+29 0 obj
+<< /Type /Catalog /Pages 28 0 R >>
 endobj
 xref
-0 28
+0 30
 0000000000 65535 f 
 0000000009 00000 n 
 0000000079 00000 n 
-0000001356 00000 n 
-0000001483 00000 n 
-0000003692 00000 n 
-0000003819 00000 n 
-0000005700 00000 n 
-0000005827 00000 n 
-0000007818 00000 n 
-0000007945 00000 n 
-0000010289 00000 n 
-0000010418 00000 n 
-0000012634 00000 n 
-0000012763 00000 n 
-0000014333 00000 n 
-0000014462 00000 n 
-0000016222 00000 n 
-0000016351 00000 n 
-0000018296 00000 n 
-0000018425 00000 n 
-0000020754 00000 n 
-0000020883 00000 n 
-0000023087 00000 n 
-0000023216 00000 n 
-0000024049 00000 n 
-0000024178 00000 n 
-0000024311 00000 n 
+0000002344 00000 n 
+0000002471 00000 n 
+0000004700 00000 n 
+0000004827 00000 n 
+0000006443 00000 n 
+0000006570 00000 n 
+0000008768 00000 n 
+0000008895 00000 n 
+0000011029 00000 n 
+0000011158 00000 n 
+0000013456 00000 n 
+0000013585 00000 n 
+0000015345 00000 n 
+0000015474 00000 n 
+0000017193 00000 n 
+0000017322 00000 n 
+0000019154 00000 n 
+0000019283 00000 n 
+0000021571 00000 n 
+0000021700 00000 n 
+0000023796 00000 n 
+0000023925 00000 n 
+0000025694 00000 n 
+0000025823 00000 n 
+0000026359 00000 n 
+0000026488 00000 n 
+0000026628 00000 n 
 trailer
-<< /Size 28 /Root 27 0 R >>
+<< /Size 30 /Root 29 0 R >>
 startxref
-24362
+26679
 %%EOF

@@ -5,16 +5,8 @@ const sidebars: SidebarsConfig = {
     'index',
     {
       type: 'category',
-      label: 'About',
-      link: {
-        type: 'doc',
-        id: 'about'
-      },
-      items: ['changelog']
-    },
-    {
-      type: 'category',
       label: 'Documentation',
+      collapsed: false,
       link: {
         type: 'doc',
         id: 'documentation/index'
@@ -23,6 +15,8 @@ const sidebars: SidebarsConfig = {
         {
           type: 'category',
           label: 'Video',
+          collapsed: false,
+          collapsible: false,
           items: [
             'documentation/video/lowering_screen',
             'documentation/video/retracting_screen',
@@ -34,6 +28,8 @@ const sidebars: SidebarsConfig = {
         {
           type: 'category',
           label: 'Audio',
+          collapsed: false,
+          collapsible: false,
           items: [
             'documentation/audio/turning_sound_system_on',
             'documentation/audio/wall_audio_controls',
@@ -42,13 +38,17 @@ const sidebars: SidebarsConfig = {
             'documentation/audio/microphones'
           ]
         },
-        {
-          type: 'category',
-          label: 'Troubleshooting',
-          items: ['comingsoon']
-        }
+        // {
+        //   type: 'category',
+        //   label: 'Troubleshooting',
+        //   collapsed: true,
+        //   collapsible: true,
+        //   items: ['comingsoon']
+        // }
       ]
-    }
+    },
+    'about',
+    'changelog'
   ]
 };
 

@@ -12,11 +12,7 @@ If the sound system is not on, see [Turning the Sound System On](turning_sound_s
 3. For port locations, see [Input Methods](../video/inputs.md).
 
 ## Open Audio Levels
-1. On the wall touchscreen Homepage, press `Audio`.
-   ![Control Screen Homepage](../../assets/images/video/control-screen_new/homepage.png)
-2. On the Audio page, press `Audio Levels`.
-   ![Audio Page](../../assets/images/video/control-screen_new/audio.png)
-3. On the **Select a Preset** screen, press `Computer + Bluetooth Inputs`.
+1. On the **Select a Preset** screen, press `Computer + Bluetooth Inputs`.
    ![Audio Preset Selection](../../assets/images/audio/control/home.png)
 
 ## Use the Computer Input Channel
