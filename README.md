@@ -74,6 +74,12 @@ static/manual-2026.05a.pdf
 
 That file is copied into the Docusaurus build and is publicly available at `/manual-2026.05a.pdf`.
 
+By default, the generated PDF uses text placeholders instead of embedded local images so the deployed asset stays under static host file-size limits. To generate an image-rich PDF locally, set:
+
+```bash
+PDF_INCLUDE_IMAGES=true npm run docs:pdf
+```
+
 If your machine uses a PDF engine other than XeLaTeX, set:
 
 ```bash

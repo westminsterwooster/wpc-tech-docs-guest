@@ -10,6 +10,7 @@ const sidebarPath = join(root, 'versioned_sidebars', `version-${version}-sidebar
 const outputPath = join(root, 'static', `manual-${version}.pdf`);
 const tempDir = join(root, 'build', 'pdf');
 const tempMarkdown = join(tempDir, `manual-${version}.md`);
+const includePdfImages = process.env.PDF_INCLUDE_IMAGES === 'true';
 
 function flattenSidebar(items, docs = []) {
   for (const item of items) {
@@ -62,7 +63,7 @@ function absolutizeMarkdownAssets(markdown, filePath) {
     if (/^(?:https?:|mailto:|\/)/.test(target)) return match;
     const [pathPart, suffix = ''] = target.split(/(?=[#?])/);
 
-    if (unsupportedPdfImageExtensions.has(markdownTargetExtension(target))) {
+    if (!includePdfImages || unsupportedPdfImageExtensions.has(markdownTargetExtension(target))) {
       return pdfImageFallback(altText);
     }
 

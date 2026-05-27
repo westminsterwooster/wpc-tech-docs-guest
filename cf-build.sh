@@ -11,6 +11,7 @@ mkdir -p "$PANDOC_DIR" "$TECTONIC_DIR"
 
 export PATH="$PANDOC_DIR/bin:$TECTONIC_DIR:$PATH"
 export PANDOC_PDF_ENGINE="${PANDOC_PDF_ENGINE:-tectonic}"
+export PDF_INCLUDE_IMAGES="${PDF_INCLUDE_IMAGES:-false}"
 
 install_pandoc() {
   if command -v pandoc >/dev/null 2>&1; then
