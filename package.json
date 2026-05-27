@@ -5,13 +5,11 @@
   "description": "Westminster Presbyterian Church guest technology documentation.",
   "scripts": {
     "start": "docusaurus start",
-    "build": "npm run docs:check-links && npm run docs:pdf && docusaurus build",
+    "build": "npm run docs:check-links && docusaurus build",
     "serve": "docusaurus serve",
     "clear": "docusaurus clear",
     "docs:version": "docusaurus docs:version",
-    "docs:pdf": "node scripts/build-pdf.mjs",
     "docs:check-links": "node scripts/check-doc-links.mjs",
-    "build:pdf": "npm run docs:pdf",
     "build:all": "npm run build"
   },
   "dependencies": {

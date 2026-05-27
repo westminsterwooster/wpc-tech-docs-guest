@@ -84,11 +84,6 @@ const config: Config = {
           dropdownActiveClassDisabled: false
         },
         {
-          href: '/manual-2026.05a.pdf',
-          label: 'PDF Manual',
-          position: 'right'
-        },
-        {
           href: 'https://github.com/westminsterwooster/wpc-tech-docs-guest',
           label: 'GitHub',
           position: 'right'
@@ -104,10 +99,6 @@ const config: Config = {
             {
               label: 'Documentation',
               to: '/docs/2026.05a/documentation/'
-            },
-            {
-              label: 'PDF Manual',
-              href: '/manual-2026.05a.pdf'
             }
           ]
         },
