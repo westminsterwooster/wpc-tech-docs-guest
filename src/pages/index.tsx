@@ -20,9 +20,6 @@ export default function Home(): JSX.Element {
               <Link className={`${styles.button} ${styles.primary}`} to="/docs/2026.05a/">
                 Open Docs
               </Link>
-              <Link className={styles.button} to="/manual-2026.05a.pdf">
-                Download PDF
-              </Link>
             </div>
           </div>
         </section>
@@ -35,10 +32,6 @@ export default function Home(): JSX.Element {
             <Link className={styles.quickLink} to="/docs/2026.05a/documentation/audio/turning_sound_system_on">
               <strong>Audio Guides</strong>
               <p>Sound system, wall controls, microphones, and Bluetooth.</p>
-            </Link>
-            <Link className={styles.quickLink} to="/manual-2026.05a.pdf">
-              <strong>Printable Manual</strong>
-              <p>Download the full 2026.05a documentation as a PDF.</p>
             </Link>
           </div>
         </section>
