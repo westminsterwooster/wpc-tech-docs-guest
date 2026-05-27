@@ -8,9 +8,9 @@ const docsOptions: DocsOptions = {
   routeBasePath: 'docs',
   sidebarPath: './sidebars.ts',
   editUrl: 'https://github.com/westminsterwooster/wpc-tech-docs-guest/edit/main/',
-  showLastUpdateTime: false,
-  showLastUpdateAuthor: false,
-  includeCurrentVersion: false,
+  showLastUpdateTime: true,
+  showLastUpdateAuthor: true,
+  includeCurrentVersion: true,
   lastVersion: '2026.05a',
   versions: {
     '2026.05a': {
