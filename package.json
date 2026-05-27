@@ -1,0 +1,38 @@
+{
+  "name": "wpc-tech-docs-guest",
+  "version": "2026.05.0",
+  "private": true,
+  "description": "Westminster Presbyterian Church guest technology documentation.",
+  "scripts": {
+    "start": "docusaurus start",
+    "build": "npm run docs:check-links && npm run docs:pdf && docusaurus build",
+    "serve": "docusaurus serve",
+    "clear": "docusaurus clear",
+    "docs:version": "docusaurus docs:version",
+    "docs:pdf": "node scripts/build-pdf.mjs",
+    "docs:check-links": "node scripts/check-doc-links.mjs",
+    "build:pdf": "npm run docs:pdf",
+    "build:all": "npm run build"
+  },
+  "dependencies": {
+    "@docusaurus/core": "3.10.1",
+    "@docusaurus/preset-classic": "3.10.1",
+    "@docusaurus/theme-mermaid": "3.10.1",
+    "@easyops-cn/docusaurus-search-local": "^0.52.0",
+    "@mermaid-js/layout-elk": "0.1.9",
+    "@mdx-js/react": "^3.1.0",
+    "clsx": "^2.1.1",
+    "prism-react-renderer": "^2.4.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@docusaurus/module-type-aliases": "3.10.1",
+    "@docusaurus/tsconfig": "3.10.1",
+    "@docusaurus/types": "3.10.1",
+    "typescript": "~5.8.3"
+  },
+  "engines": {
+    "node": ">=20.0"
+  }
+}

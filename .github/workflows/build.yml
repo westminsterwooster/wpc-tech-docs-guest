@@ -1,0 +1,53 @@
+name: Build documentation
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install Pandoc and PDF engine
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc texlive-xetex texlive-fonts-recommended texlive-latex-recommended texlive-latex-extra
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Check docs links
+        run: npm run docs:check-links
+
+      - name: Build Docusaurus
+        run: npm run build
+
+      - name: Build PDF manual
+        run: npm run docs:pdf
+
+      - name: Upload PDF manual
+        uses: actions/upload-artifact@v4
+        with:
+          name: manual-2026.05a
+          path: static/manual-2026.05a.pdf
+
+      - name: Upload static site
+        uses: actions/upload-artifact@v4
+        with:
+          name: docusaurus-build
+          path: build

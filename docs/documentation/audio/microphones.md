@@ -50,9 +50,6 @@ This guide explains how to set up and use microphones in Mackey Hall with the wa
 **Wireless 1 Power Indicator**
 ![Wireless 1 Power Indicator](../../assets/images/audio/microphones/new-mics/handheld1-power.png)
 
-**Wireless 1 ON/OFF Button**
-![Wireless 1 ON/OFF Button](../../assets/images/audio/microphones/new-mics/handheld1-on_off.png)
-
 **Wireless 1 Mute/Unmute Switch**
 ![Wireless 1 Mute/Unmute Switch](../../assets/images/audio/microphones/new-mics/handheld1-mute_unmute.png)
 
@@ -66,6 +63,9 @@ This guide explains how to set up and use microphones in Mackey Hall with the wa
 #### Wireless 2 Reference Images
 **Wireless 2 Microphone Body**
 ![Wireless 2 Microphone Body](../../assets/images/audio/microphones/new-mics/handheld2.jpeg)
+
+**Wireless 2 ON/OFF Switch**
+![Wireless 2 ON/OFF Switch](../../assets/images/audio/microphones/new-mics/handheld2-on_off.png)
 
 ## Mute and Level Notes
 - A red `Muted` button on the wall controls means that channel is muted.

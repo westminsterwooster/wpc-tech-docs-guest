@@ -21,16 +21,8 @@ For any questions or comments, please [email me](mailto:jack@wpcwooster.org).
 
 ---
 
-### Material for MKDocs Theme
+### Docusaurus
 
-Themes used under license from Martin Donath.
+Docusaurus is used under the MIT license.
 
-Material for MKDocs Theme - [View License](https://github.com/squidfunk/mkdocs-material/blob/master/LICENSE)
-
----
-
-### MkDocs
-
-MkDocs builder used under license from the MkDocs projects.
-
-MkDocs - [View License](https://github.com/mkdocs/mkdocs/blob/master/LICENSE)
+[View License](https://github.com/facebook/docusaurus/blob/main/LICENSE)
