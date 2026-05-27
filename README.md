@@ -95,11 +95,11 @@ Any static host can serve the generated `build/` directory.
 
 Recommended settings:
 
-- Build command: `npm run build:all`
+- Build command: `bash cf-build.sh`
 - Build output directory: `build`
 - Node.js version: `20` or newer
 
-Install Pandoc and a PDF engine in the build image if PDF generation is required during Cloudflare builds. If the hosting environment cannot install a TeX engine, generate `static/manual-2026.05a.pdf` in CI and commit or upload it as part of the release process.
+The Cloudflare build script downloads pinned Linux builds of Pandoc and Tectonic, sets Tectonic as the PDF engine, then runs the full docs build. If Cloudflare does not need to regenerate the PDF during deployment, use `npm run docs:check-links && npm run build` instead.
 
 ### GitHub Pages or Generic Static Hosting
 
