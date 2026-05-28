@@ -1,5 +1,8 @@
 import type { Config } from "@docusaurus/types";
-import type { Options as PresetOptions } from "@docusaurus/preset-classic";
+import type {
+  Options as PresetOptions,
+  ThemeConfig,
+} from "@docusaurus/preset-classic";
 import type { Options as DocsOptions } from "@docusaurus/plugin-content-docs";
 import type { Options as ThemeOptions } from "@docusaurus/theme-classic";
 
@@ -25,6 +28,85 @@ const docsOptions: DocsOptions = {
       banner: "none",
       badge: false,
     },
+  },
+};
+
+const themeConfig: ThemeConfig = {
+  image: "img/WPC_logo.png",
+  navbar: {
+    title: "Guest Documentation",
+    logo: {
+      alt: "Westminster Presbyterian Church logo",
+      src: "img/WPC_logo.png",
+    },
+    items: [
+      {
+        type: "docSidebar",
+        sidebarId: "docsSidebar",
+        position: "left",
+        label: "Docs",
+      },
+      {
+        type: "docsVersionDropdown",
+        position: "right",
+        dropdownActiveClassDisabled: false,
+      },
+      {
+        href: "https://github.com/westminsterwooster/wpc-tech-docs-guest",
+        label: "GitHub",
+        position: "right",
+      },
+    ],
+  },
+  footer: {
+    style: "dark",
+    links: [
+      {
+        title: "Docs",
+        items: [
+          {
+            label: "Documentation",
+            to: "/docs/2026.05a/documentation/",
+          },
+        ],
+      },
+      {
+        title: "Westminster",
+        items: [
+          {
+            label: "Website",
+            href: "https://wpcwooster.org",
+          },
+          {
+            label: "Facebook",
+            href: "https://www.facebook.com/wpcwooster",
+          },
+          {
+            label: "Instagram",
+            href: "https://www.instagram.com/wpc_wooster",
+          },
+          {
+            label: "YouTube",
+            href: "https://www.youtube.com/westminsterwooster",
+          },
+        ],
+      },
+      {
+        title: "Contact",
+        items: [
+          {
+            label: "Email",
+            href: "mailto:jack@wpcwooster.org",
+          },
+        ],
+      },
+    ],
+    copyright:
+      "Copyright © 2026 Jack Veney for Westminster Presbyterian Church Wooster, Ohio.",
+  },
+  prism: {
+    theme: require("prism-react-renderer").themes.github,
+    darkTheme: require("prism-react-renderer").themes.dracula,
   },
 };
 
@@ -69,84 +151,7 @@ const config: Config = {
       },
     ],
   ],
-  themeConfig: {
-    image: "img/WPC_logo.png",
-    navbar: {
-      title: "Guest Documentation",
-      logo: {
-        alt: "Westminster Presbyterian Church logo",
-        src: "img/WPC_logo.png",
-      },
-      items: [
-        {
-          type: "docSidebar",
-          sidebarId: "docsSidebar",
-          position: "left",
-          label: "Docs",
-        },
-        {
-          type: "docsVersionDropdown",
-          position: "right",
-          dropdownActiveClassDisabled: false,
-        },
-        {
-          href: "https://github.com/westminsterwooster/wpc-tech-docs-guest",
-          label: "GitHub",
-          position: "right",
-        },
-      ],
-    },
-    footer: {
-      style: "dark",
-      links: [
-        {
-          title: "Docs",
-          items: [
-            {
-              label: "Documentation",
-              to: "/docs/2026.05a/documentation/",
-            },
-          ],
-        },
-        {
-          title: "Westminster",
-          items: [
-            {
-              label: "Website",
-              href: "https://wpcwooster.org",
-            },
-            {
-              label: "Facebook",
-              href: "https://www.facebook.com/wpcwooster",
-            },
-            {
-              label: "Instagram",
-              href: "https://www.instagram.com/wpc_wooster",
-            },
-            {
-              label: "YouTube",
-              href: "https://www.youtube.com/westminsterwooster",
-            },
-          ],
-        },
-        {
-          title: "Contact",
-          items: [
-            {
-              label: "Email",
-              href: "mailto:jack@wpcwooster.org",
-            },
-          ],
-        },
-      ],
-      copyright:
-        "Copyright © 2026 Jack Veney for Westminster Presbyterian Church Wooster, Ohio.",
-    },
-    prism: {
-      theme: require("prism-react-renderer").themes.github,
-      darkTheme: require("prism-react-renderer").themes.dracula,
-    },
-  } satisfies ThemeOptions,
+  themeConfig,
 };
 
 export default config;
