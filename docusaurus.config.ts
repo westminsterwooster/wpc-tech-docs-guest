@@ -121,12 +121,10 @@ const config: Config = {
   trailingSlash: false,
   onBrokenLinks: "warn",
   markdown: {
-    mermaid: true,
     hooks: {
       onBrokenMarkdownLinks: "warn",
     },
   },
-  themes: ["@docusaurus/theme-mermaid"],
   presets: [
     [
       "classic",
