@@ -1,0 +1,8 @@
+{
+  "since": "2026-08-12T15:00:00Z",
+  "sectionTitle": "Recent Changes",
+  "maxItemsPerSection": 25,
+  "skipLabels": ["changelog: skip", "skip changelog", "duplicate", "invalid", "question", "wontfix"],
+  "maintenanceLabels": ["dependencies", "github_actions"],
+  "documentationLabels": ["documentation", "docs"]
+}

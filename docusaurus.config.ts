@@ -14,21 +14,6 @@ const docsOptions: DocsOptions = {
     "https://github.com/westminsterwooster/wpc-tech-docs-guest/edit/main/",
   showLastUpdateTime: true,
   showLastUpdateAuthor: true,
-  includeCurrentVersion: true,
-  lastVersion: "2026.05a",
-  versions: {
-    current: {
-      label: "Next",
-      path: "next",
-      banner: "unreleased",
-    },
-    "2026.05a": {
-      label: "2026.05a",
-      path: "2026.05a",
-      banner: "none",
-      badge: false,
-    },
-  },
 };
 
 const themeConfig: ThemeConfig = {
@@ -47,9 +32,9 @@ const themeConfig: ThemeConfig = {
         label: "Docs",
       },
       {
-        type: "docsVersionDropdown",
+        href: "pathname:///guest-documentation.pdf",
+        label: "PDF",
         position: "right",
-        dropdownActiveClassDisabled: false,
       },
       {
         href: "https://github.com/westminsterwooster/wpc-tech-docs-guest",
@@ -66,7 +51,11 @@ const themeConfig: ThemeConfig = {
         items: [
           {
             label: "Documentation",
-            to: "/docs/2026.05a/documentation/",
+            to: "/docs/documentation/",
+          },
+          {
+            label: "Printable PDF",
+            href: "pathname:///guest-documentation.pdf",
           },
         ],
       },

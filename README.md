@@ -2,7 +2,7 @@
 
 Westminster Presbyterian Church guest technology documentation for Mackey Hall.
 
-The site is built with Docusaurus and published as documentation version `2026.05a`.
+The site is built with Docusaurus and published as a single current documentation site.
 
 ## Requirements
 
@@ -39,22 +39,9 @@ npm run build:all
 
 This checks local Markdown links and builds Docusaurus.
 
-## Versioning Workflow
+## Publishing Workflow
 
-The current published docs are versioned as `2026.05a` using Docusaurus versioning:
-
-- Source docs remain in `docs/`.
-- Published versioned docs live in `versioned_docs/version-2026.05a/`.
-- Versioned sidebars live in `versioned_sidebars/version-2026.05a-sidebars.json`.
-- `versions.json` controls the visible versions.
-
-To create a future version after updating `docs/`:
-
-```bash
-npm run docs:version -- NEW_VERSION
-```
-
-The `2026.05a` version has already been created for this migration.
+The published site always serves the current docs from `docs/`. Changes merge through pull requests, and `docs/changelog.md` is updated automatically from merged GitHub pull requests.
 
 ## Deployment
 

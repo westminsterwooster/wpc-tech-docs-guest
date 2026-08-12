@@ -5,11 +5,13 @@
   "description": "Westminster Presbyterian Church guest technology documentation.",
   "scripts": {
     "start": "docusaurus start",
-    "build": "npm run docs:check-links && docusaurus build",
+    "build": "npm run build:site && npm run pdf:build && npm run build:site",
+    "build:site": "npm run docs:check-links && docusaurus build",
     "serve": "docusaurus serve",
     "clear": "docusaurus clear",
-    "docs:version": "docusaurus docs:version",
     "docs:check-links": "node scripts/check-doc-links.mjs",
+    "pdf:build": "node scripts/build-pdf.mjs",
+    "pdf:install-browser": "node scripts/install-pdf-browser.mjs",
     "typecheck": "tsc --noEmit",
     "build:all": "npm run build"
   },
@@ -27,6 +29,9 @@
     "@docusaurus/module-type-aliases": "3.10.2",
     "@docusaurus/tsconfig": "3.10.2",
     "@docusaurus/types": "3.10.2",
+    "docusaurus-docs-to-pdf": "^0.0.5",
+    "pdf-lib": "^1.17.1",
+    "sharp": "^0.35.3",
     "typescript": "~7.0.2"
   },
   "engines": {
