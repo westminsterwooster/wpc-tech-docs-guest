@@ -1,11 +1,18 @@
 # Computer Input Methods
 
-This guide explains how to connect devices in Mackey Hall and switch video sources from the wall touchscreen.
+This guide explains how to connect devices in Mackey Hall and switch video sources from the wall touchscreen. Use this after the projector or rear TV is on.
+
+## What This Means
+The room has several wall ports. The touchscreen tells the projector and rear TV which port to show. The label on the wall port should match the button you choose on the touchscreen.
+
+## Best Choice for Most Guests
+Use `HDMI 1` or `HDMI 2` if your laptop or adapter supports HDMI. HDMI usually carries both picture and sound through one cable.
 
 ## Connecting Devices
 1. Locate the input ports on the wall outside the Scout Closet, under the projector screen, and by the sound system/chair closet wall.
 2. Connect your device to the matching labeled port.
 3. On the touchscreen, select the input that matches the port label you used.
+4. If you need sound, confirm the sound system is on and the right audio channel is unmuted.
 
 ## Switching Inputs on the Touchscreen
 1. Go to the wall touchscreen in Mackey Hall.
@@ -45,7 +52,9 @@ There are two VGA input locations in Mackey Hall:
 1. `Laptop 1 (VGA)`: Under the input selector panel with its matching 3.5mm audio port.
 2. `Laptop 2 (VGA)`: On the wall outside the Scout Closet, under the projector screen, with its matching 3.5mm audio port.
 
-VGA requires two cables for full A/V: VGA (video) plus 3.5mm (audio).
+VGA is an older computer video connection. It requires two cables for full picture and sound:
+- VGA for picture.
+- 3.5mm audio for sound.
 
 #### Laptop 1 Input
 ![VGA 1 Input](../../assets/images/video/inputs/ports_vga1.png)
@@ -60,3 +69,11 @@ There is one RCA input under the input selector panel.
 
 ![RCA Input](../../assets/images/video/inputs/ports_RCA.png)
 
+RCA is usually used for older equipment. Most laptops should use HDMI instead.
+
+## If You Do Not See or Hear Anything
+- Make sure the projector or rear TV is powered on.
+- Make sure the selected touchscreen input matches the wall port label.
+- Check that your device is awake and sending video to an external display.
+- If you have picture but no sound, open [Using Computer Audio](../audio/computer_audio.md).
+- If you are using VGA, make sure the separate 3.5mm audio cable is connected.

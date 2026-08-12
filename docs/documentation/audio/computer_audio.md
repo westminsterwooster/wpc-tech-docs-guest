@@ -1,8 +1,14 @@
 # Using Computer Audio
 
-This guide explains how to play audio from a computer in Mackey Hall using the wall touchscreen audio controls.
+This guide explains how to play audio from a computer in Mackey Hall. Use this when you want sound from a laptop, the Church PC, or another connected computer to play through the room speakers.
 
 If the sound system is not on, see [Turning the Sound System On](turning_sound_system_on.md).
+
+## Before You Start
+- Connect video first if you are showing slides or video.
+- HDMI usually carries picture and sound together.
+- VGA only carries picture, so it also needs a 3.5mm audio cable for sound.
+- The computer volume and the room audio controls both affect what people hear.
 
 ## Connect Your Computer
 1. Connect your computer using one of these methods:
@@ -30,3 +36,10 @@ If the sound system is not on, see [Turning the Sound System On](turning_sound_s
 
 ![Help Screen](../../assets/images/audio/control/help.png)
 
+## If You Do Not Hear Computer Audio
+- Make sure the computer is actually playing sound.
+- Turn up the computer volume.
+- If using HDMI, confirm the computer selected the HDMI/display audio output.
+- If using VGA, confirm the 3.5mm audio cable is connected.
+- Confirm the `Computer` channel is unmuted in the `Computer + Bluetooth Inputs` preset.
+- Confirm `Master Output` is high enough for the room.

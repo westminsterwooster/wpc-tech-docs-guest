@@ -1,8 +1,13 @@
 # Turning Projector / Rear TV Off
 
-This guide explains how to power off the projector and rear TV in Mackey Hall using the wall touchscreen.
+This guide explains how to power off the projector and rear TV in Mackey Hall using the wall touchscreen. Use this during shutdown so the display equipment is not left running after an event.
 
 If you need the reverse process, see [Turning Projector / Rear TV On](./turning_projector_on.md).
+
+## Before You Start
+- Stop the presentation or video first.
+- If you used the projector screen, turn off the projector before retracting the screen.
+- The projector may take about 30 seconds to finish shutting down.
 
 ## Power Off Projector
 1. Go to the wall touchscreen in Mackey Hall.
@@ -26,3 +31,7 @@ If you need the reverse process, see [Turning Projector / Rear TV On](./turning_
    **Press and hold `Rear TV` for a few seconds to power off the rear TV.**
 5. Wait a few seconds for the rear TV to fully power off.
 
+## Shutdown Check
+- If the projector screen was lowered, retract it after the projector is off.
+- Disconnect personal devices and return any borrowed cables.
+- If audio was used, mute or lower channels on the iPad before leaving.

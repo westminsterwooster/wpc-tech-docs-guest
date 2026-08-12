@@ -2,11 +2,19 @@
 
 This guide explains how to set up and use microphones in Mackey Hall with the wall touchscreen audio controls.
 
+## Choose the Right Microphone
+| Need | Use |
+| --- | --- |
+| Speaker at the pulpit | `Pulpit 1` or `Pulpit 2` |
+| Speaker moving around the room | `Wireless 1` or `Wireless 2` |
+| Hands-free speaking | `Lapel` |
+
 ## Before You Start
 1. Make sure the sound system is on. If needed, see [Turning the Sound System On](turning_sound_system_on.md).
 2. Open the wall touchscreen audio controls and select the correct preset. If needed, see [Using Audio Controls](wall_audio_controls.md).
 3. Use `Pulpit Wired Mics` for pulpit channels `Pulpit 1` and `Pulpit 2`.
 4. Use `Wireless Mics` for `Wireless 1`, `Wireless 2`, and `Lapel`.
+5. Start with the channel level low, unmute the channel, speak normally, then raise the level gradually.
 
 ## Pulpit Microphone
 1. Locate the pulpit microphone and cable, if not already plugged in.
@@ -22,7 +30,7 @@ This guide explains how to set up and use microphones in Mackey Hall with the wa
 ## Lapel Microphone (Wireless)
 1. Locate the lapel bodypack and lapel mic (kept in the pulpit when not in use).
 2. Power: move the top power switch to `on`.
-3. Clip the lapel mic and begin speaking.
+3. Clip the lapel mic near the speaker's upper chest, outside of scarves or heavy clothing.
 4. On the wall controls, open `Wireless Mics` and use channel `Lapel`.
 5. If channel `Lapel` shows `Muted` in red, press it once to unmute.
 6. Set level with `+1%`, `-1%`, or the slider.
@@ -74,3 +82,14 @@ This guide explains how to set up and use microphones in Mackey Hall with the wa
 - You can press and hold `+1%` or `-1%` for faster continuous changes.
 - Start with lower levels, speak into the microphone, then raise gradually.
 - If a wireless mic has no audio, check battery level and power switch position.
+
+## If a Microphone Does Not Work
+- Confirm the sound system is on.
+- Confirm the correct preset is open: `Pulpit Wired Mics` or `Wireless Mics`.
+- Confirm the matching channel is unmuted.
+- Confirm the microphone itself is turned on and not muted.
+- For wireless microphones, check the battery level or try fresh batteries if available.
+- For pulpit microphones, confirm the cable is plugged into the matching input.
+
+## Technical Note
+The wall controls and the microphone can both mute audio. For wireless microphones, check both the iPad channel and the physical microphone switch.
