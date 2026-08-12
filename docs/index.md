@@ -5,7 +5,14 @@ slug: /
 
 # WPC Guest Technology Documentation
 
-Use this guide to run Mackey Hall video and audio for a meeting, class, presentation, or event. If you are not sure where to start, follow the quick start checklist first, then open the guide for the specific equipment you need.
+Use this guide to run Mackey Hall video and audio for a meeting, class, presentation, or event.
+
+If you are not technical, start with **Quick Start** and follow the steps in order. If you already know the room system, use **Choose What You Need** to jump straight to the right task.
+
+## How to Read These Guides
+- **Main steps** tell you what to press, connect, or check.
+- **Notes** explain why a step matters or what to expect from the system.
+- **If It Does Not Work** sections give quick checks before you ask for help.
 
 ## Quick Start
 1. Turn on the [sound system](documentation/audio/turning_sound_system_on.md) if you need microphones, computer audio, or Bluetooth audio.
@@ -14,6 +21,10 @@ Use this guide to run Mackey Hall video and audio for a meeting, class, presenta
 4. Connect your device and select the matching [video input](documentation/video/inputs.md).
 5. Use the iPad [audio controls](documentation/audio/wall_audio_controls.md) to choose the right preset and unmute the channels you need.
 6. Test both picture and sound before the event begins.
+
+:::tip
+Do the sound test with the actual person speaking or the actual device playing audio. A quick test before guests arrive is much easier than troubleshooting during an event.
+:::
 
 ## Choose What You Need
 | Need | Start Here |
