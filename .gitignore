@@ -4,3 +4,4 @@ node_modules/
 build/
 .docusaurus/
 .cache/
+static/guest-documentation.pdf

@@ -2,10 +2,7 @@ import {existsSync, readdirSync, readFileSync} from 'node:fs';
 import {dirname, extname, join, resolve} from 'node:path';
 
 const root = resolve(new URL('..', import.meta.url).pathname);
-const docsRoots = [
-  join(root, 'docs'),
-  join(root, 'versioned_docs', 'version-2026.05a')
-];
+const docsRoots = [join(root, 'docs')];
 const markdownExtensions = new Set(['.md', '.mdx']);
 const problems = [];
 
