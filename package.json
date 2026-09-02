@@ -31,7 +31,7 @@
     "@docusaurus/types": "3.10.2",
     "docusaurus-docs-to-pdf": "^0.0.5",
     "pdf-lib": "^1.17.1",
-    "sharp": "^0.35.3",
+    "sharp": "^0.35.4",
     "typescript": "~7.0.2"
   },
   "engines": {
