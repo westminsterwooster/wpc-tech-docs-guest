@@ -1,0 +1,87 @@
+name: NPM Audit Fix
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: npm-audit-fix
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  npm-audit-fix:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run npm audit fix
+        id: audit
+        # npm can apply safe fixes and still exit nonzero for remaining advisories.
+        continue-on-error: true
+        run: npm run audit-fix
+
+      - name: Report incomplete audit fix
+        if: steps.audit.outcome == 'failure'
+        run: echo "::warning::npm audit fix did not complete cleanly. Review the audit logs for remaining vulnerabilities or errors."
+
+      - name: Run tests
+        run: npm test --if-present
+
+      - name: Run type check
+        run: npm run typecheck
+
+      - name: Run build
+        run: npm run build --if-present
+
+      # The action detects changes itself. Running on no-change days also lets
+      # it close obsolete PRs and delete the automation branch after merging.
+      - name: Create pull request
+        uses: peter-evans/create-pull-request@v8
+        with:
+          token: ${{ secrets.NPM_AUDIT_FIX_TOKEN }}
+          add-paths: |
+            package.json
+            package-lock.json
+          commit-message: |
+            chore: npm audit fix
+
+            Co-authored-by: Codex <noreply@openai.com>
+          title: "chore: npm audit fix"
+          body: |
+            Automated npm audit fix.
+
+            This PR was created automatically by the NPM Audit Fix workflow.
+
+            - Dependencies were installed with `npm ci`
+            - `npm run audit-fix` was executed without `--force`
+            - Audit fix outcome: `${{ steps.audit.outcome }}` (see logs for remaining advisories or errors)
+            - Tests were run if a test script exists
+            - Type checking passed
+            - Build was run if a build script exists
+
+            Workflow: ${{ github.workflow }}
+            Run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+
+            Co-authored-by: Codex <noreply@openai.com>
+          branch: chore/npm-audit-fix
+          delete-branch: true
+          labels: dependencies,security
